@@ -1,0 +1,141 @@
+<nz-card nzHoverable="true" class="app-header-card">
+    <div class="app-header-surface">
+        <div class="app-header-main">
+            <p class="header-kicker">National DRR Monitoring Platform</p>
+            <h2 class="header-title">
+                Fiji National Disaster Risk Reduction and Management Plan
+                <br/>
+                Monitoring and Evaluation Platform | 2018-2030 <i>[Demo]</i>
+            </h2>
+
+            <p class="header-subtitle">National Actions and Activities Aligned to Regional and Global DRR Frameworks</p>
+
+            <div class="header-stats" aria-label="Base Data Overview">
+                <div class="stat-chip">
+                    <span class="stat-value">4</span>
+                    <span class="stat-label">Frameworks and Policies</span>
+                </div>
+                <div class="stat-chip">
+                    <span class="stat-value">10</span>
+                    <span class="stat-label">Alignment Themes</span>
+                </div>
+                <div class="stat-chip">
+                    <span class="stat-value">7</span>
+                    <span class="stat-label">Sendai Targets Alignment</span>
+                </div>
+            </div>
+
+            <p class="header-overview">
+                <u>Base Data Overview</u>: <b>4</b> Frameworks and Policies, with Flexible Alignment and Cross-Framework Mapping and Pathway
+                across <b>10</b> themes, and <b>7</b> Sendai Targets Alignment.
+            
+                Prepopulated with <a routerLink="/outcome">Outcomes</a> and <a routerLink="/activity">Activities</a> for
+                Demonstration Purposes Only. Data is Editable by Admin Users. Data and Reports are exportable to Excel and
+                PDF.
+            </p>
+        </div>
+
+        <div class="app-header-logos" aria-label="Institutional logos">
+            <img src="ndmo.png" alt="NDRMO logo" />
+            <img src="fiji.png" alt="Fiji emblem" />
+            
+        </div>
+    </div>
+</nz-card>
+
+<br />
+
+<nz-collapse>
+    <nz-collapse-panel nzHeader="Frameworks and Policies" [nzActive]="true">
+        <nz-table #frameworksTable nzBordered [nzShowPagination]="false" [nzData]="frameworks()">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Acronym</th>
+                    <th>Level</th>
+                    <th>Period</th>
+                    <th>Authority</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (f of frameworksTable.data; track $index) {
+                <tr>
+                    <td><a [routerLink]="['/', f.id]">{{ f.name }}</a></td>
+                    <td>{{ f.acronym }}</td>
+                    <td>{{ f.level }}</td>
+                    <td>{{ f.period }}</td>
+                    <td>{{ f.authority }}</td>
+                </tr>
+                }
+            </tbody>
+        </nz-table>
+    </nz-collapse-panel>
+
+    <nz-collapse-panel nzHeader="Alignment Mapping and Pathway">
+        <nz-table #themesTable nzBordered [nzShowPagination]="false" [nzData]="alignmentThemesView()">
+            <thead>
+                <tr>
+                    <th>Theme</th>
+                    <th>Description</th>
+                    <th>Alignments</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (theme of themesTable.data; track theme.id) {
+                <tr>
+                    <td><b>{{ theme.title }}</b></td>
+                    <td>{{ theme.description }}</td>
+                    <td>
+                        @for (alignment of theme.alignments; track $index) {
+                        <div class="alignment-entry">
+                            <div><b>{{ alignment.frameworkId | uppercase }}</b></div>
+
+                            @if (alignment.titles.length) {
+                            <div class="alignment-section">
+                                @for (title of alignment.titles; track $index) {
+                                <div><b>{{ title }}</b></div>
+                                }
+                            </div>
+                            }
+
+                            @if (alignment.descriptions.length) {
+                            <div class="alignment-section">
+                                @for (description of alignment.descriptions; track $index) {
+                                <div>{{ description }}</div>
+                                }
+                            </div>
+                            }
+                        </div>
+                        }
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </nz-table>
+    </nz-collapse-panel>
+
+    <nz-collapse-panel nzHeader="Sendai Targets Alignment">
+        <nz-table #sendaiTargetsTable nzBordered [nzShowPagination]="false" [nzData]="sendaiTargetsAlignment()">
+            <thead>
+                <tr>
+                    <th>Sendai Target</th>
+                    <th>NDP Indicator</th>
+                    <th>NDRRP Indicator</th>
+                    <th>FRDP Indicator</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (target of sendaiTargetsTable.data; track $index) {
+                <tr>
+                    <td><b>{{ target.sendaiTarget }}</b></td>
+                    <td>{{ target.ndpIndicator }}</td>
+                    <td>{{ target.ndrrpReference }}</td>
+                    <td>{{ target.frdpReference }}</td>
+                </tr>
+                }
+            </tbody>
+        </nz-table>
+    </nz-collapse-panel>
+
+
+</nz-collapse>

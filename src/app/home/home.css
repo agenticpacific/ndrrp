@@ -1,0 +1,138 @@
+.app-header-card {
+	overflow: hidden;
+}
+
+.app-header-surface {
+	background: linear-gradient(120deg, #f6fbff 0%, #ffffff 45%, #fefcf6 100%);
+	border: 1px solid #e6edf5;
+	border-radius: 12px;
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1.7fr 1fr;
+	padding: 20px;
+	position: relative;
+}
+
+.app-header-main {
+	display: grid;
+	gap: 10px;
+}
+
+.header-kicker {
+	color: #1f4d7a;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.header-title {
+	color: #12263a;
+	/* font-size: 24px; */
+	line-height: 1.3;
+	margin: 0;
+}
+
+.header-subtitle {
+	color: #3d556f;
+	font-size: 14px;
+	margin: 0;
+}
+
+.header-stats {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(3, minmax(130px, 1fr));
+	margin-top: 4px;
+}
+
+.stat-chip {
+	background: #ffffff;
+	border: 1px solid #dbe6f0;
+	border-radius: 10px;
+	display: grid;
+	gap: 2px;
+	padding: 8px 10px;
+}
+
+.stat-value {
+	color: #0c3d67;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.stat-label {
+	color: #4b5f73;
+	font-size: 12px;
+	line-height: 1.2;
+}
+
+.header-overview,
+.header-notes {
+	color: #23384d;
+	font-size: 13px;
+	line-height: 1.5;
+	margin: 0;
+    text-align: justify;
+}
+
+.header-notes a {
+	font-weight: 600;
+}
+
+.app-header-logos {
+	align-content: center;
+	display: grid;
+	gap: 12px;
+	justify-items: center;
+	
+}
+
+.app-header-logos img {
+	background: #fff;
+	border: none;
+	height: 110px;
+	padding: 2px;
+}
+
+.alignment-entry {
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+}
+
+.alignment-entry:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.alignment-section {
+	margin-top: 0px;
+}
+
+@media (max-width: 960px) {
+	.app-header-surface {
+		grid-template-columns: 1fr;
+	}
+
+	.app-header-logos {
+		grid-template-columns: repeat(2, minmax(120px, 1fr));
+	}
+}
+
+@media (max-width: 640px) {
+	.header-title {
+		font-size: 20px;
+	}
+
+	.header-stats {
+		grid-template-columns: 1fr;
+	}
+
+	.app-header-surface {
+		padding: 16px;
+	}
+}

@@ -1,0 +1,15 @@
+.summary-block {
+	margin-top: 16px;
+}
+
+.level-item {
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
+
+.level-item:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}

@@ -1,0 +1,196 @@
+<nz-card nzTitle="Activity System Module" nzBordered="true">
+	<p>
+		Tracks Action Item -> Main Activity (L1) -> Sub-Activity (L2) implementation with weighted progress,
+		evidence links, and contribution to five colour-coded framework rows.
+	</p>
+</nz-card>
+
+<br />
+<!-- 
+<nz-card nzTitle="Framework Row Legend (Colour Coded)">
+	<div class="legend-grid">
+		@for (row of rows; track row.id) {
+		<div class="legend-item">
+			<nz-tag [nzColor]="row.color" [style.color]="'#fff'">{{ row.label }}</nz-tag>
+		</div>
+		}
+	</div>
+</nz-card>
+ -->
+<br />
+
+<nz-card nzTitle="Action Item and Main Activity List">
+	<nz-table #activityTable nzBordered [nzShowPagination]="false" [nzData]="activities()">
+		<thead>
+			<tr>
+				<th>Action Item</th>
+				<th>Title</th>
+				<th>Sector</th>
+				<th>Lead Agency</th>
+				<th>Primary Row</th>
+				<th>Weighted Progress</th>
+				<th>Status</th>
+				<th>Show</th>
+			</tr>
+		</thead>
+		<tbody>
+			@for (item of activityTable.data; track item.id) {
+			<tr>
+				<td>{{ item.actionItemNo }}</td>
+				<td>{{ item.title }}</td>
+				<td>{{ item.sector }}</td>
+				<td>{{ item.leadAgency }}</td>
+				<td>
+					<nz-tag [nzColor]="rowColor(item.primaryRow)" [style.color]="'#fff'">
+						{{ rowLabel(item.primaryRow) }}
+					</nz-tag>
+				</td>
+				<td>
+					<nz-progress [nzPercent]="weightedProgress(item)" [nzShowInfo]="false"></nz-progress>
+				</td>
+				<td>
+					<nz-tag [nzColor]="statusColor(statusFor(weightedProgress(item)))">
+						{{ statusFor(weightedProgress(item)) }}
+					</nz-tag>
+				</td>
+				<td>
+					<button nz-button nzType="default" (click)="selectActivity(item.id)">View</button>
+				</td>
+			</tr>
+			}
+		</tbody>
+	</nz-table>
+</nz-card>
+
+<br />
+
+@if (selectedActivity(); as selected) {
+<nz-card nzTitle="Activity Detail (Show) Click on View Button in Table Above">
+	<div class="detail-head">
+		<div>
+			<div><b>Action Item:</b> {{ selected.actionItemNo }}</div>
+			<div><b>Title:</b> {{ selected.title }}</div>
+			<div><b>Timeline:</b> {{ selected.timeline }}</div>
+		</div>
+		<nz-progress nzType="circle" [nzPercent]="weightedProgress(selected)"></nz-progress>
+	</div>
+
+	<nz-divider></nz-divider>
+
+	<nz-table #subTable nzBordered [nzShowPagination]="false" [nzData]="selected.subActivities">
+		<thead>
+			<tr>
+				<th>Sub-Activity (L2)</th>
+				<th>Owner</th>
+				<th>Due Date</th>
+				<th>Weight</th>
+				<th>Progress</th>
+				<th>Status</th>
+				<th>Secondary Row Contributions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@for (sub of subTable.data; track sub.id) {
+			<tr>
+				<td>
+					<div><b>{{ sub.title }}</b></div>
+					<div><a [href]="sub.evidenceUrl" target="_blank">Evidence</a></div>
+				</td>
+				<td>{{ sub.owner }}</td>
+				<td>{{ sub.dueDate }}</td>
+				<td>{{ sub.weight }}%</td>
+				<td>
+					<nz-progress [nzPercent]="sub.progress" [nzShowInfo]="false"></nz-progress>
+				</td>
+				<td>
+					<nz-tag [nzColor]="statusColor(sub.status)">{{ sub.status }}</nz-tag>
+				</td>
+				<td>
+					@for (row of sub.secondaryRows; track $index) {
+					<nz-tag [nzColor]="rowColor(row)" [style.color]="'#fff'">{{ rowLabel(row) }}</nz-tag>
+					}
+				</td>
+			</tr>
+			}
+		</tbody>
+	</nz-table>
+
+	<nz-divider></nz-divider>
+	<h4>Contribution Graphs</h4>
+	<div class="charts-grid">
+		<div>
+			<h5>By Sector</h5>
+			@for (entry of sectorProgress(); track entry.sector) {
+			<div class="chart-line">
+				<div class="chart-label">{{ entry.sector }}</div>
+				<nz-progress [nzPercent]="entry.value"></nz-progress>
+			</div>
+			}
+		</div>
+		<div>
+			<h5>By Framework Row</h5>
+			@for (entry of rowContribution(); track entry.id) {
+			<div class="chart-line">
+				<div class="chart-label">{{ entry.label }}</div>
+				<nz-progress [nzStrokeColor]="entry.color" [nzPercent]="entry.value"></nz-progress>
+			</div>
+			}
+		</div>
+	</div>
+</nz-card>
+}
+
+<br />
+
+<nz-card nzTitle="Activity Data Entry Form (New Sub-Activity L2)">
+	<form nz-form [formGroup]="subActivityForm" (ngSubmit)="saveSubActivity()" class="entry-form">
+		<div class="form-grid">
+			<div class="form-field">
+				<span class="form-label">Parent Action Item</span>
+				<nz-select formControlName="actionItemNo" [nzOptions]="parentActivityOptions()"></nz-select>
+			</div>
+
+			<div class="form-field full-width">
+				<span class="form-label">Sub-Activity Title</span>
+				<input nz-input formControlName="title" />
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Owner</span>
+				<input nz-input formControlName="owner" />
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Due Date</span>
+				<input nz-input type="date" formControlName="dueDate" />
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Weight (%)</span>
+				<nz-input-number formControlName="weight"></nz-input-number>
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Progress (%)</span>
+				<nz-input-number formControlName="progress"></nz-input-number>
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Status</span>
+				<nz-select formControlName="status" [nzOptions]="statusOptions"></nz-select>
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Secondary Contribution Rows</span>
+				<nz-select formControlName="secondaryRows" nzMode="multiple" [nzOptions]="rowOptions"></nz-select>
+			</div>
+
+			<div class="form-field full-width">
+				<span class="form-label">Evidence URL</span>
+				<input nz-input formControlName="evidenceUrl" />
+			</div>
+		</div>
+
+		<button nz-button nzType="primary" type="submit">Save Sub-Activity</button>
+	</form>
+</nz-card>

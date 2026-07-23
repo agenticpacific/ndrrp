@@ -1,0 +1,65 @@
+.legend-grid {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.legend-item {
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.detail-head {
+	align-items: center;
+	display: grid;
+	gap: 16px;
+	grid-template-columns: 1.5fr 1fr;
+}
+
+.charts-grid {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.chart-line {
+	margin-top: 10px;
+}
+
+.chart-label {
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+
+.entry-form {
+	display: grid;
+	gap: 14px;
+}
+
+.form-grid {
+	display: grid;
+	gap: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.full-width {
+	grid-column: 1 / -1;
+}
+
+.form-field {
+	display: grid;
+	font-size: 12px;
+	gap: 6px;
+}
+
+.form-label {
+	font-size: 12px;
+}
+
+@media (max-width: 768px) {
+	.detail-head,
+	.charts-grid {
+		grid-template-columns: 1fr;
+	}
+}

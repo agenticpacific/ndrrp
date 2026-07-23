@@ -1,0 +1,105 @@
+@if (data(); as frdp) {
+<nz-card nzHoverable="true">
+	<nz-card-meta [nzTitle]="frdp.framework"
+		[nzDescription]="frdp.level + ' | ' + frdp.period"></nz-card-meta>
+
+	<div class="summary-block">
+		<h3>{{ frdp.vision.title }}</h3>
+		<p>{{ frdp.vision.summary }}</p>
+	</div>
+
+	<div class="summary-block">
+		<h3>{{ frdp.purpose.title }}</h3>
+		<p>{{ frdp.purpose.summary }}</p>
+	</div>
+</nz-card>
+
+<br/>
+
+<nz-collapse>
+	<nz-collapse-panel nzHeader="Guiding Principles">
+		<nz-table #principlesTable nzBordered [nzShowPagination]="false" [nzData]="guidingPrinciples()">
+			<thead>
+				<tr>
+					<th>Principle</th>
+					<th>Summary</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (principle of principlesTable.data; track $index) {
+				<tr>
+					<td><b>{{ principle.principle }}</b></td>
+					<td>{{ principle.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Goals">
+		<nz-table #goalsTable nzBordered [nzShowPagination]="false" [nzData]="goals()">
+			<thead>
+				<tr>
+					<th>Goal</th>
+					<th>Title</th>
+					<th>Context and Challenges</th>
+					<th>Strategic Objective</th>
+					<th>Outcome</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (goal of goalsTable.data; track goal.goal) {
+				<tr>
+					<td><b>{{ goal.goal }}</b></td>
+					<td>{{ goal.title }}</td>
+					<td>{{ goal.context_and_challenges.summary }}</td>
+					<td>{{ goal.strategic_objective.summary }}</td>
+					<td>{{ goal.outcome.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Priority Actions by Goal">
+		<nz-table #actionsTable nzBordered [nzShowPagination]="false" [nzData]="goals()">
+			<thead>
+				<tr>
+					<th>Goal</th>
+					<th>National and Subnational Governments</th>
+					<th>Civil Society and Communities</th>
+					<th>Private Sector</th>
+					<th>Regional Organizations and Development Partners</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (goal of actionsTable.data; track goal.goal) {
+				<tr>
+					<td><b>{{ goal.goal }}. {{ goal.title }}</b></td>
+					<td>
+						@for (item of goalActions(goal, 'national_and_subnational_governments'); track $index) {
+						<div class="nested-item">{{ item }}</div>
+						}
+					</td>
+					<td>
+						@for (item of goalActions(goal, 'civil_society_and_communities'); track $index) {
+						<div class="nested-item">{{ item }}</div>
+						}
+					</td>
+					<td>
+						@for (item of goalActions(goal, 'private_sector'); track $index) {
+						<div class="nested-item">{{ item }}</div>
+						}
+					</td>
+					<td>
+						@for (item of goalActions(goal, 'regional_organizations_and_development_partners'); track $index) {
+						<div class="nested-item">{{ item }}</div>
+						}
+					</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+</nz-collapse>
+}

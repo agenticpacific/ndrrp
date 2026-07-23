@@ -1,0 +1,1099 @@
+{
+  "meta": {
+    "title": "BSRP-ME Frameworks Alignment Matrix",
+    "description": "Cross-framework alignment of disaster risk reduction and development policies across global (Sendai), regional (FRDP), and national (NDRRP, NDP) levels for Fiji",
+    "generated": "2025-01",
+    "totalFrameworks": 4,
+    "totalAlignmentThemes": 10
+  },
+  "frameworks": [
+    {
+      "id": "sendai",
+      "name": "Sendai Framework for Disaster Risk Reduction",
+      "acronym": "SENDAI",
+      "level": "Global",
+      "country": null,
+      "period": "2015-2030",
+      "authority": "United Nations",
+      "description": "Global framework adopted by UN member states to achieve substantial reduction of disaster risk and losses.",
+      "order": 1
+    },
+    {
+      "id": "frdp",
+      "name": "Framework for Resilient Development in the Pacific",
+      "acronym": "FRDP",
+      "level": "Regional",
+      "country": null,
+      "period": "2017-2030",
+      "authority": "Pacific Community (SPC), SPREP, PIFS, UNDP, UNISDR, USP",
+      "description": "Regional voluntary framework providing high-level strategic guidance to Pacific Island countries on building resilience to climate change and disasters.",
+      "order": 2
+    },
+    {
+      "id": "ndrrp",
+      "name": "National Disaster Risk Reduction Policy",
+      "acronym": "NDRRP",
+      "level": "Agency",
+      "country": "Fiji",
+      "period": "2018-2030",
+      "authority": "Ministry of Disaster Management and Meteorological Services, Fiji",
+      "description": "Fiji's national policy to enable the country to prevent new and reduce existing disaster risk in line with Sendai Framework and FRDP.",
+      "order": 3
+    },
+    {
+      "id": "ndp",
+      "name": "Fiji National Development Plan",
+      "acronym": "NDP",
+      "level": "National",
+      "country": "Fiji",
+      "period": "2025-2029",
+      "authority": "Ministry of Finance, Strategic Planning, National Development and Statistics, Fiji",
+      "description": "Fiji's national development blueprint organized under three pillars: Economic Resilience, People Empowerment, and Good Governance, with Vision 2050.",
+      "order": 4
+    }
+  ],
+  "alignmentThemes": [
+    {
+      "id": "theme-1",
+      "title": "Disaster Risk Understanding & Knowledge Management",
+      "icon": "knowledge",
+      "description": "Understanding disaster risk in all its dimensions, including data collection, risk assessment, hazard mapping, information sharing, research, and building knowledge capacity.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "priority": 1,
+          "priorityTitle": "Understanding disaster risk",
+          "elements": [
+            {
+              "type": "nationalLocalItems",
+              "count": 15,
+              "keyItems": [
+                "(a) Data collection and dissemination",
+                "(b) Baseline risk assessments",
+                "(c) Location-based risk maps",
+                "(d) Loss accounting",
+                "(i) Traditional knowledge"
+              ]
+            },
+            {
+              "type": "globalRegionalItems",
+              "count": 9,
+              "keyItems": [
+                "(a) Science-based methodologies",
+                "(b) Regional risk assessments",
+                "(f) Global awareness campaigns"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "goal": 1,
+          "goalTitle": "Strengthened Integrated Adaptation and Risk Reduction",
+          "elements": [
+            {
+              "type": "governmentActions",
+              "items": [
+                "(j) National institutions for hazard/risk info",
+                "(l) Accurate data collection and sharing",
+                "(q) Knowledge on climate/hazard causes",
+                "(r) Document traditional/scientific knowledge"
+              ]
+            },
+            {
+              "type": "regionalActions",
+              "items": [
+                "(q) Science, technology and knowledge management",
+                "(s) Emerging issues identification"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "strategy": 7,
+          "strategyTitle": "Knowledge and Information",
+          "elements": [
+            {
+              "type": "strategyDescription",
+              "text": "Improve knowledge, information, attitudes and practices on DRR. Leverage traditional wisdom (Fijian bures), DRR education, community volunteering, tree-planting campaigns, DRR White Paper."
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "Environment and Climate Change",
+            "National Disaster Risk Reduction"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Climate change modelling and hazard mapping for all urban centres",
+                "Improved national capacity for strategic foresight",
+                "Risk-informed development planning",
+                "Multi-hazard risk mapping"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-2",
+      "title": "Disaster Risk Governance & Mainstreaming",
+      "icon": "governance",
+      "description": "Strengthening disaster risk governance through legal frameworks, institutional arrangements, coordination mechanisms, and mainstreaming DRR into development planning across all sectors.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "priority": 2,
+          "priorityTitle": "Strengthening disaster risk governance to manage disaster risk",
+          "elements": [
+            {
+              "type": "nationalLocalItems",
+              "count": 11,
+              "keyItems": [
+                "(a) Mainstream DRR across sectors",
+                "(b) National/local DRR strategies",
+                "(d) Compliance with safety laws",
+                "(g) National coordination platforms"
+              ]
+            },
+            {
+              "type": "globalRegionalItems",
+              "count": 6,
+              "keyItems": [
+                "(a) Regional strategies",
+                "(b) Cross-mechanism collaboration",
+                "(c) Global/regional platforms"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "goal": 1,
+          "goalTitle": "Strengthened Integrated Adaptation and Risk Reduction",
+          "elements": [
+            {
+              "type": "governmentActions",
+              "items": [
+                "(b) Embed resilience in development strategies",
+                "(d) Finance/planning institutions central role",
+                "(g) Multi-sectoral implementation mechanisms",
+                "(h) Decentralised planning"
+              ]
+            },
+            {
+              "type": "regionalActions",
+              "items": [
+                "(b) Incorporate resilience in all strategies",
+                "(j) Link planning to public financial management"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "strategies": [
+            1,
+            2
+          ],
+          "strategyTitles": [
+            "Mainstreaming Disaster Risk Reduction",
+            "Disaster Risk Governance"
+          ],
+          "elements": [
+            {
+              "type": "s1KeyPoints",
+              "items": [
+                "Review NDMA to incorporate DRR, climate change, gender, disability",
+                "Clear demarcation of DRR responsibilities national/local",
+                "Joint mainstreaming of DRR and CCA",
+                "National and local DRR action plans and SOPs"
+              ]
+            },
+            {
+              "type": "s2KeyPoints",
+              "items": [
+                "Good governance principles: transparency, effectiveness, equity, rule of law",
+                "National govt as primary duty bearer",
+                "Local govts key roles in land use, infrastructure, building codes"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "Good Governance (Pillar 3)",
+            "National Disaster Risk Reduction"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Reviewing 2013 Constitution",
+                "Civil Service reforms",
+                "Strengthening rule of law and justice",
+                "Mainstreaming DRR at local level",
+                "NDMO developing joint CC/DRR action plan"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-3",
+      "title": "Financing & Investment in Disaster Risk Reduction",
+      "icon": "finance",
+      "description": "Public and private investment in DRR through structural and non-structural measures, disaster risk financing, insurance mechanisms, and resource allocation for resilience building.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "priority": 3,
+          "priorityTitle": "Investing in disaster risk reduction for resilience",
+          "elements": [
+            {
+              "type": "nationalLocalItems",
+              "count": 17,
+              "keyItems": [
+                "(a) Allocate resources for DRR",
+                "(b) Risk transfer and insurance",
+                "(c) Resilient public/private investment",
+                "(j) Social safety-net mechanisms",
+                "(n) Ecosystem-based approaches"
+              ]
+            },
+            {
+              "type": "globalRegionalItems",
+              "count": 9,
+              "keyItems": [
+                "(b) Risk transfer mechanisms",
+                "(c) Academic-private cooperation",
+                "(d) Financial institution coordination"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "goals": [
+            1,
+            2
+          ],
+          "goalTitles": [
+            "Strengthened Integrated Adaptation and Risk Reduction",
+            "Low Carbon Development"
+          ],
+          "elements": [
+            {
+              "type": "governmentActions",
+              "items": [
+                "(a) Fundable projects for GCF/AF/GEF",
+                "(d) Strategic whole-of-country financing",
+                "(e) Climate/disaster resilient budgets"
+              ]
+            },
+            {
+              "type": "regionalActions",
+              "items": [
+                "(d) Track international financial commitments",
+                "(i) Regional facility for risk financing/insurance",
+                "(k) Strategy to access financing mechanisms",
+                "(l) Support fundable project development"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "strategy": 3,
+          "strategyTitle": "Financing and Investing",
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Proactive investment in DRR within annual budgets",
+                "Recovery and reconstruction subsidy programme",
+                "Disaster relief programme",
+                "Collective relocation subsidy programme",
+                "Funding loan programme",
+                "Disaster moratorium programme",
+                "Disaster insurance programme",
+                "Climate-based insurance programme",
+                "Social agreement on cost-sharing for disaster risks"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "Economic Resilience (Pillar 1)"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Investment to GDP target: 20%",
+                "Net Fiscal Deficit target: 2.5% of GDP",
+                "Disaster Risk Financing Policy with innovative solutions",
+                "$9.3 billion estimated needed over 10 years for climate resilience",
+                "Private sector investment through PPPs"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-4",
+      "title": "Disaster Preparedness",
+      "icon": "preparedness",
+      "description": "Strengthening preparedness through contingency planning, capacity building, stockpiling, evacuation planning, and multi-hazard early warning systems.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "priority": 4,
+          "priorityTitle": "Enhancing disaster preparedness for effective response and to 'Build Back Better'",
+          "elements": [
+            {
+              "type": "nationalLocalItems",
+              "keyItems": [
+                "(a) Preparedness/contingency policies",
+                "(b) People-centred early warning systems",
+                "(d) Community centres for awareness/stockpiling",
+                "(h) Regular drills and exercises",
+                "(l) Relocation of facilities outside risk zones"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "goal": 3,
+          "goalTitle": "Strengthened Disaster Preparedness, Response and Recovery",
+          "elements": [
+            {
+              "type": "governmentActions",
+              "items": [
+                "(a) Review DRM planning and legislation",
+                "(d) Integrated preparedness/response plans",
+                "(h) Multi-hazard early warning systems",
+                "(r) Contingency stockpile of relief items"
+              ]
+            },
+            {
+              "type": "regionalActions",
+              "items": [
+                "(b) End-to-end early warning systems",
+                "(e) Telecommunications infrastructure for warnings",
+                "(i) Best practice guidelines for DRM"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "strategy": 4,
+          "strategyTitle": "Preparedness",
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Structural measures: flood embankments, retention dams, drainage, mangroves, sea walls, evacuation centres",
+                "Non-structural: DRR education, risk assessment, building codes, hazard monitoring, business continuity plans",
+                "Continuous public awareness through 'no regrets' strategies"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "National Disaster Risk Reduction"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Strengthen multi-hazard early warning system (people-centred)",
+                "Establish resilient multipurpose evacuation centres",
+                "Increase national capability for risk foresight and early detection",
+                "Stricter compliance to building codes and standards"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-5",
+      "title": "Emergency Response",
+      "icon": "response",
+      "description": "Coordinated humanitarian emergency response, including relief operations, cluster coordination, rescue services, and emergency communication systems.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "priority": 4,
+          "priorityTitle": "Enhancing disaster preparedness for effective response",
+          "elements": [
+            {
+              "type": "nationalLocalItems",
+              "keyItems": [
+                "(e) Coordination and funding for relief",
+                "(f) Train workforce and volunteers in response",
+                "(n) Case registry for mortality database"
+              ]
+            },
+            {
+              "type": "globalRegionalItems",
+              "keyItems": [
+                "(a) Coordinated regional response mechanisms",
+                "(g) Regional protocols for sharing response capacities"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "goal": 3,
+          "goalTitle": "Strengthened Disaster Preparedness, Response and Recovery",
+          "elements": [
+            {
+              "type": "governmentActions",
+              "items": [
+                "(c) Accurate data for focused response",
+                "(g) Humanitarian coordination and emergency operations centres",
+                "(i) Accessible early warning messaging",
+                "(n) PPP agreements for emergency response"
+              ]
+            },
+            {
+              "type": "regionalActions",
+              "items": [
+                "(c) Interoperability of response agencies",
+                "(h) Private sector resilience for response"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "strategy": 5,
+          "strategyTitle": "Emergency Response",
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Disaster Risk Information System (DRIS): collection, analysis, dissemination, management",
+                "Streamlined early warning for evacuation",
+                "SOPs with rescue-and-relief principles and timelines",
+                "Fiji Cluster System for humanitarian response coordination",
+                "Protection Code of Conduct for Humanitarian Workers"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "National Disaster Risk Reduction"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Setting up of National Disaster Management Office (NDMO)",
+                "Joint action plan for climate change and DRR",
+                "Multi-sectoral approach to risk management"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-6",
+      "title": "Recovery, Reconstruction & Build Back Better",
+      "icon": "recovery",
+      "description": "Post-disaster recovery and reconstruction that reduces future risk, applying Build Back Better principles, livelihood restoration, and psychosocial support.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "priority": 4,
+          "priorityTitle": "...and to 'Build Back Better' in recovery, rehabilitation and reconstruction",
+          "elements": [
+            {
+              "type": "nationalLocalItems",
+              "keyItems": [
+                "(g) Continuity of operations post-disaster",
+                "(j) Incorporate DRM into recovery processes",
+                "(k) Guidance for reconstruction (land-use, standards)",
+                "(o) Psychosocial support and mental health services"
+              ]
+            },
+            {
+              "type": "globalRegionalItems",
+              "keyItems": [
+                "(d) International Recovery Platform for experience sharing"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "goal": 3,
+          "goalTitle": "Strengthened Disaster Preparedness, Response and Recovery",
+          "elements": [
+            {
+              "type": "governmentActions",
+              "items": [
+                "(b) Post-disaster needs assessments",
+                "(o) Post-disaster time series data",
+                "(p) Knowledge management/lessons learned"
+              ]
+            },
+            {
+              "type": "privateSectorActions",
+              "items": [
+                "(e) Low carbon development and BBB approaches in recovery"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "strategy": 6,
+          "strategyTitle": "Recovery and Reconstruction",
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Livelihood support to disaster victims during recovery",
+                "Streamlined Fiji Cluster System for recovery",
+                "National reconstruction plans based on PDNA/DLDA",
+                "Build Back Better (BBB) as goal for infrastructure/housing/facilities",
+                "Public emergency broadcasting for information dissemination"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "National Disaster Risk Reduction"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Build back better principles in post-disaster recovery",
+                "Resilient infrastructure standards",
+                "Recovery focus after TC Winston ($2 billion economic impact)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-7",
+      "title": "Climate Change Adaptation & Low-Carbon Development",
+      "icon": "climate",
+      "description": "Addressing climate change as a driver of disaster risk through adaptation measures, emissions reduction, renewable energy, ecosystem conservation, and alignment with the Paris Agreement.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "priority": 3,
+          "priorityTitle": "Investing in disaster risk reduction for resilience",
+          "elements": [
+            {
+              "type": "nationalLocalItems",
+              "keyItems": [
+                "(n) Sustainable ecosystem management",
+                "(o) Business resilience and supply chains",
+                "(q) DRM in tourism industry"
+              ]
+            },
+            {
+              "type": "crossReference",
+              "text": "Sendai recognizes climate change as a driver of disaster risk (Preamble para 13)"
+            }
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "goals": [
+            1,
+            2
+          ],
+          "goalTitles": [
+            "Integrated Adaptation and Risk Reduction",
+            "Low Carbon Development"
+          ],
+          "elements": [
+            {
+              "type": "goal1Actions",
+              "items": [
+                "(c) National Adaptation Plans",
+                "(p) Human mobility and displacement",
+                "(q) Knowledge on local impacts/responses",
+                "Strategic objective: manage present/future risk within development planning"
+              ]
+            },
+            {
+              "type": "goal2Actions",
+              "items": [
+                "(a) Resilient energy infrastructure",
+                "(b) NAMA and REDD+ registration",
+                "(i) Conserve forests, coasts, oceans for carbon stocks",
+                "(k) Waste management to reduce GHG",
+                "Outcome: improved energy security, decreased net emissions"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "strategy": 1,
+          "strategyTitle": "Mainstreaming Disaster Risk Reduction (with CCA integration)",
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Joint mainstreaming of DRR and CCA",
+                "CCA/DRR integration recognized as fundamental",
+                "Climate change and disaster risk interlinked throughout the policy",
+                "Paris Agreement mandate respected alongside DRR measures"
+              ]
+            }
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "Environment and Climate Change",
+            "Energy and Electricity"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "30% GHG reduction by 2030, net zero by 2050",
+                "100% renewable energy in electricity generation target",
+                "0.9\u00b0C temperature rise since 1959",
+                "3-4mm/year sea-level rise",
+                "Institutionalise climate risk management",
+                "Preserve natural carbon sinks",
+                "Operationalise Warsaw International Mechanism for Loss and Damage",
+                "Leverage international climate finance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-8",
+      "title": "Inclusion, Human Rights & Social Protection",
+      "icon": "inclusion",
+      "description": "Ensuring DRR and development efforts are inclusive of vulnerable groups (women, children, persons with disabilities, elderly, poor), protect human rights, promote gender equality, and provide social safety nets.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "guidingPrinciples": [
+            "(c) Protect human rights including right to development",
+            "(d) All-of-society engagement, gender/age/disability perspectives"
+          ],
+          "elements": [
+            {
+              "type": "priority3Items",
+              "keyItems": [
+                "(j) Inclusive social safety-net mechanisms",
+                "(k) Include people with chronic diseases in policies",
+                "(l) Address disaster-induced human mobility"
+              ]
+            }
+          ],
+          "priority": 3
+        },
+        {
+          "frameworkId": "frdp",
+          "elements": [
+            {
+              "type": "goal1Actions",
+              "items": [
+                "(f) Gender analysis and human rights-based approaches",
+                "(i) Involve vulnerable groups as participants",
+                "(p) Protect vulnerable communities from displacement"
+              ]
+            },
+            {
+              "type": "goal3Actions",
+              "items": [
+                "(c) Sex-and-age disaggregated data",
+                "(i) Accessible messaging reaching vulnerable groups"
+              ]
+            }
+          ],
+          "goals": [
+            1,
+            3
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "guidingPrincipleTitles": [
+            "Human Rights and Gender Based Approaches",
+            "Safety Net Based Approaches"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Broad popular participation of vulnerable groups",
+                "Humanitarian assistance reaching most vulnerable",
+                "Protection against gender-based violence in emergencies",
+                "Women's leadership in DRR",
+                "Children, youth, persons with disabilities, older persons in decision-making",
+                "Economic/social safety nets across all DRR phases",
+                "Disaster finance management schemes",
+                "Protection mechanisms compensating victims"
+              ]
+            }
+          ],
+          "strategies": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "focusAreas": [
+            "Poverty Alleviation",
+            "Protection of Children, Youth and People with Disabilities",
+            "Women in Economic Development",
+            "Gender Mainstreaming (Cross-cutting)"
+          ],
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Reduce poverty incidence to 18% by 2030 (from 24.1%)",
+                "Social protection: Family Assistance, Social Pension (26,200 elderly), Bus Fare Concession",
+                "Align child protection to UNCRC",
+                "Women participation in board directorship: 50% target",
+                "Gender Budget Template",
+                "Fiji ranked 107/146 on WEF Gender Gap Index 2022"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-9",
+      "title": "Multi-Hazard Early Warning Systems",
+      "icon": "warning",
+      "description": "Development and strengthening of multi-hazard early warning systems, hazard monitoring, forecasting, telecommunications infrastructure, and dissemination of timely warnings to all communities.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "elements": [
+            {
+              "type": "targetG",
+              "text": "Substantially increase availability of and access to multi-hazard early warning systems and disaster risk information to people by 2030"
+            },
+            {
+              "type": "priority1",
+              "items": [
+                "(c) Risk maps and geospatial information",
+                "(f) Real-time data and GIS"
+              ]
+            },
+            {
+              "type": "priority4",
+              "items": [
+                "(b) People-centred multi-hazard forecasting and EWS"
+              ]
+            }
+          ],
+          "priorities": [
+            1,
+            4
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "elements": [
+            {
+              "type": "goal1Actions",
+              "items": [
+                "(j) Strengthen meteorological/hydrological/seismological services for hazard info and EWS"
+              ]
+            },
+            {
+              "type": "goal3Actions",
+              "items": [
+                "(h) Effective multi-hazard EWS for sudden/slow onset hazards",
+                "(i) Accessible warning language and messages for all groups",
+                "(j) Two-way communication channels"
+              ]
+            },
+            {
+              "type": "regionalActions",
+              "items": [
+                "(b) End-to-end EWS",
+                "(c) Regional multi-hazard early warning mechanisms (Global Framework for Climate Services)",
+                "(e) Telecommunications infrastructure for reliable warnings"
+              ]
+            }
+          ],
+          "goals": [
+            1,
+            3
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "elements": [
+            {
+              "type": "actionItems",
+              "items": [
+                "Multi-Hazard Early Warning System (Item 65)",
+                "Tsunami Warning and Cancellation system (Item 28)",
+                "Standardisation of Telecommunication Services (Item 66)",
+                "Emergency Communication Network (Item 67)",
+                "Information Collection and Dissemination System (Item 68)",
+                "Tsunami Siren Networks and Evacuation Drills (Item 69)",
+                "Storm Surge Prediction and Coastal Inundation Prediction (Item 77)",
+                "Catchment Monitoring and Flood Prediction (Item 78)",
+                "Colour Coding System for warnings (Item 82)"
+              ]
+            }
+          ],
+          "strategies": [
+            4,
+            5
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "Strengthen multi-hazard warning system with people-centred approach",
+                "Climate change modelling and hazard mapping",
+                "National capability for risk foresight and early detection"
+              ]
+            }
+          ],
+          "focusAreas": [
+            "National Disaster Risk Reduction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-10",
+      "title": "Resilient Infrastructure & Critical Facilities",
+      "icon": "infrastructure",
+      "description": "Building and retrofitting infrastructure and critical facilities (schools, hospitals, transport, utilities) to withstand hazards, enforcing building codes, and ensuring service continuity.",
+      "alignments": [
+        {
+          "frameworkId": "sendai",
+          "elements": [
+            {
+              "type": "targetD",
+              "text": "Substantially reduce disaster damage to critical infrastructure and disruption of basic services by 2030"
+            },
+            {
+              "type": "priority3",
+              "items": [
+                "(c) Resilient critical facilities - schools, hospitals",
+                "(h) Building codes for informal settlements",
+                "(i) Resilient national health systems"
+              ]
+            },
+            {
+              "type": "priority4",
+              "items": [
+                "(c) Resilience of critical infrastructure (water, transport, telecom, education, health)"
+              ]
+            }
+          ],
+          "priorities": [
+            3,
+            4
+          ]
+        },
+        {
+          "frameworkId": "frdp",
+          "elements": [
+            {
+              "type": "goal1Actions",
+              "items": [
+                "(n) Enforce building codes and infrastructure design on critical facilities"
+              ]
+            },
+            {
+              "type": "goal2Actions",
+              "items": [
+                "(a) Minimise hazard risks in energy infrastructure",
+                "(d) Energy efficiency codes for public buildings"
+              ]
+            }
+          ],
+          "goals": [
+            1,
+            2
+          ]
+        },
+        {
+          "frameworkId": "ndrrp",
+          "elements": [
+            {
+              "type": "strategy4",
+              "text": "Preparedness structural measures: flood control embankments, retention dams, drainage networks, mangrove planting, sea walls, safer schools and hospitals, evacuation centres"
+            },
+            {
+              "type": "strategy6",
+              "text": "Build Back Better for infrastructure, houses and production facilities"
+            }
+          ],
+          "strategies": [
+            4,
+            6
+          ]
+        },
+        {
+          "frameworkId": "ndp",
+          "elements": [
+            {
+              "type": "keyPoints",
+              "items": [
+                "500 km new sealed roads in rural areas",
+                "93% rural electricity access target",
+                "88% total population access to clean water",
+                "Resilient multipurpose evacuation centres",
+                "Upgrade and maintain: roads, ports, wharves, rural airstrips, jetties, bridges",
+                "Decarbonise transport sector (electric vehicles)",
+                "Upgrade electricity infrastructure",
+                "Enforce stricter compliance to building codes and standards"
+              ]
+            }
+          ],
+          "focusAreas": [
+            "National Disaster Risk Reduction",
+            "Transport",
+            "Energy and Electricity",
+            "Water and Wastewater"
+          ]
+        }
+      ]
+    }
+  ],
+  "sendaiTargetsAlignment": [
+    {
+      "sendaiTarget": "(a) Reduce global disaster mortality by 2030",
+      "ndpIndicator": "Indirect: Healthcare strengthening, NCDs (>70% premature deaths)",
+      "ndrrpReference": "Success Story #1: Fiji as Sendai Framework Mortality Reduction Champion",
+      "frdpReference": "Goal 3 outcome: prevent undue human losses and suffering"
+    },
+    {
+      "sendaiTarget": "(b) Reduce number of affected people globally by 2030",
+      "ndpIndicator": "Indirect: Poverty reduction to 18%, Rural/outer island development",
+      "ndrrpReference": "Safety Net Based Approaches (GP4)",
+      "frdpReference": "Goal 1: Stronger and more resilient communities"
+    },
+    {
+      "sendaiTarget": "(c) Reduce direct economic loss in relation to GDP by 2030",
+      "ndpIndicator": "Average Annual Growth Rate: 4-5%, Net Fiscal Deficit: 2.5% of GDP",
+      "ndrrpReference": "Financing and Investing Strategy (S3): proactive investment in DRR",
+      "frdpReference": "Goal 1 context: some PICs losses approaching/exceeding GDP"
+    },
+    {
+      "sendaiTarget": "(d) Reduce damage to critical infrastructure and disruption of basic services by 2030",
+      "ndpIndicator": "500 km new sealed roads, 93% rural electricity, 88% clean water access",
+      "ndrrpReference": "Recovery and Reconstruction Strategy (S6): BBB for infrastructure",
+      "frdpReference": "Goal 1 action (n): enforce building codes on critical facilities"
+    },
+    {
+      "sendaiTarget": "(e) Increase countries with national and local DRR strategies by 2020",
+      "ndpIndicator": "NDRRP 2018-2030 adopted; NDP mainstreams DRR across all sectors",
+      "ndrrpReference": "National and local DRR action plans and SOPs under development",
+      "frdpReference": "Goal 1 action (s): national DRM platforms and climate forums"
+    },
+    {
+      "sendaiTarget": "(f) Enhance international cooperation to developing countries by 2030",
+      "ndpIndicator": "Foreign policy pillar on prosperity; leveraging international climate finance",
+      "ndrrpReference": "International cooperation through JICA, SPC, UNISDR, PIFS partnerships",
+      "frdpReference": "Goal 1 regional actions: support for financing, capacity building"
+    },
+    {
+      "sendaiTarget": "(g) Increase availability of multi-hazard EWS and risk information by 2030",
+      "ndpIndicator": "Multi-hazard warning system with people-centred approach",
+      "ndrrpReference": "20+ action items on EWS, monitoring, communication systems",
+      "frdpReference": "Goal 3 actions (h), (i), (j) on EWS and warning communication"
+    }
+  ],
+  "hierarchyLevels": {
+    "global": {
+      "frameworks": [
+        "sendai"
+      ],
+      "providesOverarchingGuidanceTo": [
+        "regional",
+        "national"
+      ],
+      "keyFunctions": [
+        "Sets global targets and indicators",
+        "Defines universal priorities for action",
+        "Establishes guiding principles for all States",
+        "Provides monitoring and reporting framework"
+      ]
+    },
+    "regional": {
+      "frameworks": [
+        "frdp"
+      ],
+      "receivesGuidanceFrom": [
+        "global"
+      ],
+      "providesGuidanceTo": [
+        "national"
+      ],
+      "keyFunctions": [
+        "Translates global frameworks to regional context",
+        "Provides voluntary guidelines for PICTs",
+        "Facilitates regional cooperation and partnerships",
+        "Supports capacity building and resource mobilisation",
+        "Aligns with Sendai, SDGs, Paris Agreement"
+      ]
+    },
+    "national": {
+      "frameworks": [
+        "ndrrp",
+        "ndp"
+      ],
+      "receivesGuidanceFrom": [
+        "global",
+        "regional"
+      ],
+      "keyFunctions": [
+        "Operationalises global and regional commitments",
+        "Establishes country-specific policies and strategies",
+        "Defines national targets and KPIs",
+        "Allocates resources and assigns implementing agencies",
+        "NDP provides broader development context; NDRRP provides DRR-specific operationalisation"
+      ]
+    }
+  }
+}

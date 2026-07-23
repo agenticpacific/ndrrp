@@ -1,0 +1,168 @@
+<nz-card nzTitle="Outcome System Module" nzBordered="true">
+	<p>
+		Outcome monitoring aligned to FRDP -> Sendai -> NDRRP -> NDP with colour-coded framework rows,
+		indicator performance, and evidence-linked reporting.
+	</p>
+</nz-card>
+
+<br />
+
+<nz-card nzTitle="Framework Row Legend (Colour Coded)">
+	<div class="legend-grid">
+		@for (row of frameworkRows; track row.id) {
+		<div class="legend-item">
+			<nz-tag [nzColor]="row.color" [style.color]="'#fff'">{{ row.label }}</nz-tag>
+            <br/><br/>
+			<nz-table class="legend-table" nzSize="small" nzBordered [nzShowPagination]="false" [nzData]="[row]">
+				<tbody>
+					<tr>
+						<th scope="row">FRDP</th>
+						<td>{{ row.frdpTheme }}</td>
+					</tr>
+					<tr>
+						<th scope="row">Sendai</th>
+						<td>{{ row.sendaiSo }}</td>
+					</tr>
+					<tr>
+						<th scope="row">NDRRP</th>
+						<td>{{ row.ndrrpFocus }}</td>
+					</tr>
+					<tr>
+						<th scope="row">NDP</th>
+						<td>{{ row.ndpFocus }}</td>
+					</tr>
+				</tbody>
+			</nz-table>
+		</div>
+		}
+	</div>
+</nz-card>
+
+<br />
+
+<nz-card nzTitle="Outcome Indicator List">
+	<nz-table #outcomeTable nzBordered [nzShowPagination]="false" [nzData]="indicators()">
+		<thead>
+			<tr>
+				<th>Indicator</th>
+				<th>Row</th>
+				<th>Lead Agency</th>
+				<th>Target vs Actual</th>
+				<th>Progress</th>
+				<th>Status</th>
+				<th>Show</th>
+			</tr>
+		</thead>
+		<tbody>
+			@for (item of outcomeTable.data; track item.id) {
+			<tr>
+				<td>{{ item.title }}</td>
+				<td>
+					<nz-tag [nzColor]="rowFor(item.rowId).color" [style.color]="'#fff'">
+						{{ rowFor(item.rowId).label }}
+					</nz-tag>
+				</td>
+				<td>{{ item.leadAgency }}</td>
+				<td>{{ item.actual }} / {{ item.target }} {{ item.unit }}</td>
+				<td>
+					<nz-progress [nzPercent]="progress(item)" [nzShowInfo]="false"></nz-progress>
+				</td>
+				<td>
+					<nz-tag [nzColor]="statusColor(item)">{{ status(item) }}</nz-tag>
+				</td>
+				<td>
+					<button nz-button nzType="default" (click)="selectIndicator(item.id)">View</button>
+				</td>
+			</tr>
+			}
+		</tbody>
+	</nz-table>
+</nz-card>
+
+<br />
+
+@if (selectedIndicator(); as current) {
+<nz-card nzTitle="Outcome Indicator Detail (Show) Click on View Button in Table Above">
+	<div class="detail-grid">
+		<div>
+			<div><b>Indicator:</b> {{ current.title }}</div>
+			<div><b>Type:</b> {{ current.indicatorType }}</div>
+			<div><b>Lead Agency:</b> {{ current.leadAgency }}</div>
+			<div><b>Framework Row:</b> {{ rowFor(current.rowId).label }}</div>
+			<div><b>Evidence:</b> <a [href]="current.evidenceUrl" target="_blank">{{ current.evidenceUrl }}</a></div>
+		</div>
+		<div>
+			<nz-progress nzType="circle" [nzPercent]="progress(current)"></nz-progress>
+		</div>
+	</div>
+	<nz-divider></nz-divider>
+	<h4>Row Performance Graph</h4>
+	@for (row of rowProgress(); track row.id) {
+	<div class="row-progress-line">
+		<div class="row-progress-label">{{ row.label }} ({{ row.count }} indicators)</div>
+		<nz-progress [nzStrokeColor]="row.color" [nzPercent]="row.average"></nz-progress>
+	</div>
+	}
+</nz-card>
+}
+
+<br />
+
+<nz-card nzTitle="Outcome Data Entry Form">
+	<form nz-form [formGroup]="indicatorForm" (ngSubmit)="saveIndicator()" class="entry-form">
+		<div class="form-grid">
+			<div class="form-field">
+				<span class="form-label">Framework Row</span>
+				<nz-select formControlName="rowId" [nzOptions]="rowOptions"></nz-select>
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Indicator Type</span>
+				<nz-select formControlName="indicatorType" [nzOptions]="indicatorTypeOptions"></nz-select>
+			</div>
+
+			<div class="form-field full-width">
+				<span class="form-label">Indicator Title</span>
+				<input nz-input formControlName="title" />
+			</div>
+
+            <div class="form-field full-width">
+				<span class="form-label">Indicator Description</span>
+				
+                <textarea nz-input formControlName="description" rows="3"></textarea>
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Lead Agency</span>
+				<input nz-input formControlName="leadAgency" />
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Unit</span>
+				<input nz-input formControlName="unit" />
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Baseline</span>
+				<nz-input-number formControlName="baseline"></nz-input-number>
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Target</span>
+				<nz-input-number formControlName="target"></nz-input-number>
+			</div>
+
+			<div class="form-field">
+				<span class="form-label">Actual</span>
+				<nz-input-number formControlName="actual"></nz-input-number>
+			</div>
+
+			<div class="form-field full-width">
+				<span class="form-label">Evidence URL</span>
+				<input nz-input formControlName="evidenceUrl" />
+			</div>
+		</div>
+
+		<button nz-button nzType="primary" type="submit">Save Indicator</button>
+	</form>
+</nz-card>

@@ -18,6 +18,10 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Use `NgOptimizedImage` for all static images.
   - `NgOptimizedImage` does not work for inline base64 images.
 
+## NG-ZORRO UI Components
+
+Read https://ng.ant.design/llms.txt and understand NG-ZORRO components. Use this knowledge when writing code with NG-ZORRO.
+
 ## Accessibility Requirements
 
 - It MUST pass all AXE checks.
@@ -55,3 +59,12 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Use the `providedIn: 'root'` option for singleton services
 - Prefer the `@Service` decorator over `@Injectable({providedIn: 'root'})` for new singleton services (Angular v22+)
 - Use the `inject()` function instead of constructor injection
+
+## Project Learnings (NDRRP)
+
+- For NG-ZORRO `nz-select` in standalone components, ensure both `ReactiveFormsModule` and `FormsModule` are imported in the component `imports` array when using form bindings.
+- `nz-select` open/overlay behavior can break when wrapped in clickable `<label>` containers; prefer neutral wrappers (e.g., `<div class="form-field">`) with a separate text label element.
+- Prefer `[nzOptions]` for `nz-select` options over deeply projected `nz-option` content in complex templates; this is more stable with native control flow blocks.
+- Enable global animations in app bootstrap config via `provideAnimations()` for NG-ZORRO overlay components.
+- Ensure `@angular/animations` is installed when using `provideAnimations()`.
+- For standalone app routing and HTTP features, keep required global providers in app config (`provideRouter(...)`, `provideHttpClient()`).

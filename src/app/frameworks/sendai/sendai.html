@@ -1,0 +1,95 @@
+@if (data(); as sendai) {
+<nz-card nzHoverable="true">
+	<nz-card-meta [nzTitle]="sendai.framework"
+		[nzDescription]="sendai.level + ' | ' + sendai.period"></nz-card-meta>
+
+	<div class="summary-block">
+		<h3>Expected Outcome</h3>
+		<p><b>{{ sendai.expected_outcome.title }}</b></p>
+		<p>{{ sendai.expected_outcome.summary }}</p>
+	</div>
+
+	<div class="summary-block">
+		<h3>Goal</h3>
+		<p><b>{{ sendai.goal.title }}</b></p>
+		<p>{{ sendai.goal.summary }}</p>
+	</div>
+</nz-card>
+
+<br/>
+
+<nz-collapse>
+	<nz-collapse-panel nzHeader="Guiding Principles">
+		<nz-table #guidingTable nzBordered [nzShowPagination]="false" [nzData]="guidingPrinciples()">
+			<thead>
+				<tr>
+					<th>Principle</th>
+					<th>Summary</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (principle of guidingTable.data; track $index) {
+				<tr>
+					<td><b>{{ principle.principle }}</b></td>
+					<td>{{ principle.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Priorities for Action">
+		<nz-table #prioritiesTable nzBordered [nzShowPagination]="false" [nzData]="prioritiesForAction()">
+			<thead>
+				<tr>
+					<th>Priority</th>
+					<th>Title</th>
+					<th>Summary</th>
+					<th>National and Local Levels</th>
+					<th>Global and Regional Levels</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (priority of prioritiesTable.data; track priority.priority) {
+				<tr>
+					<td><b>{{ priority.priority }}</b></td>
+					<td>{{ priority.title }}</td>
+					<td>{{ priority.summary }}</td>
+					<td>
+						@for (item of levelItems(priority, 'national'); track $index) {
+						<div class="level-item">{{ item }}</div>
+						}
+					</td>
+					<td>
+						@for (item of levelItems(priority, 'global'); track $index) {
+						<div class="level-item">{{ item }}</div>
+						}
+					</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Global Targets">
+		<nz-table #targetsTable nzBordered [nzShowPagination]="false" [nzData]="globalTargets()">
+			<thead>
+				<tr>
+					<th>Target</th>
+					<th>Description</th>
+					<th>Summary</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (target of targetsTable.data; track $index) {
+				<tr>
+					<td><b>{{ target.target }}</b></td>
+					<td>{{ target.description }}</td>
+					<td>{{ target.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+</nz-collapse>
+}

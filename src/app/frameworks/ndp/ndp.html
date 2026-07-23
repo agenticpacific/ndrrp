@@ -1,0 +1,126 @@
+@if (data(); as ndp) {
+<nz-card nzHoverable="true">
+	<nz-card-meta [nzTitle]="ndp.framework"
+		[nzDescription]="ndp.level + ' | ' + ndp.country + ' | ' + ndp.period"></nz-card-meta>
+
+	<div class="summary-block">
+		<h3>Vision 2050</h3>
+		<p>{{ ndp.vision_2050.summary }}</p>
+	</div>
+
+	<div class="summary-block">
+		<h3>{{ ndp.vision.title }}</h3>
+		<p>{{ ndp.vision.summary }}</p>
+	</div>
+
+	<div class="summary-block">
+		<h3>{{ ndp.mission.title }}</h3>
+		<p>{{ ndp.mission.summary }}</p>
+	</div>
+</nz-card>
+
+<br/>
+
+<nz-collapse>
+	<nz-collapse-panel nzHeader="Cross-Cutting Priorities">
+		<nz-table #prioritiesTable nzBordered [nzShowPagination]="false" [nzData]="crossCuttingPriorities()">
+			<thead>
+				<tr>
+					<th>Priority</th>
+					<th>Summary</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (priority of prioritiesTable.data; track $index) {
+				<tr>
+					<td><b>{{ priority.priority }}</b></td>
+					<td>{{ priority.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Pillars and Focus Areas">
+		<nz-table #pillarsTable nzBordered [nzShowPagination]="false" [nzData]="pillars()">
+			<thead>
+				<tr>
+					<th>Pillar</th>
+					<th>Title</th>
+					<th>Focus Areas</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (pillar of pillarsTable.data; track pillar.pillar) {
+				<tr>
+					<td><b>{{ pillar.pillar }}</b></td>
+					<td>{{ pillar.title }}</td>
+					<td>
+						@for (focusArea of pillar.focus_areas; track focusArea.focus_area) {
+						<div class="nested-item">
+							<div><b>{{ focusArea.focus_area }}. {{ focusArea.title }}</b></div>
+							<div>{{ focusArea.summary }}</div>
+							@if (focusArea.sub_chapters?.length) {
+							<div class="nested-section">
+								@for (subChapter of focusArea.sub_chapters; track $index) {
+								<div class="nested-item compact">
+									<div><b>{{ subChapter.title }}</b></div>
+									<div>{{ subChapter.summary }}</div>
+								</div>
+								}
+							</div>
+							}
+						</div>
+						}
+					</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="X Factors">
+		<nz-table #xFactorsTable nzBordered [nzShowPagination]="false" [nzData]="xFactors()">
+			<thead>
+				<tr>
+					<th>X Factor</th>
+					<th>Title</th>
+					<th>Rationale</th>
+					<th>What Will Be Done</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (factor of xFactorsTable.data; track factor.x_factor) {
+				<tr>
+					<td><b>{{ factor.x_factor }}</b></td>
+					<td>{{ factor.title }}</td>
+					<td>{{ factor.rationale }}</td>
+					<td>{{ factor.what_will_be_done }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Targets and KPIs">
+		<nz-table #targetsTable nzBordered [nzShowPagination]="false" [nzData]="targetsAndKpis()">
+			<thead>
+				<tr>
+					<th>Indicator</th>
+					<th>Target</th>
+					<th>Pillar</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (target of targetsTable.data; track $index) {
+				<tr>
+					<td><b>{{ target.indicator }}</b></td>
+					<td>{{ target.target }}</td>
+					<td>{{ target.pillar }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+</nz-collapse>
+}

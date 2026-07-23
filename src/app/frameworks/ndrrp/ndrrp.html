@@ -1,0 +1,113 @@
+@if (data(); as ndrrp) {
+<nz-card nzHoverable="true">
+	<nz-card-meta [nzTitle]="ndrrp.framework"
+		[nzDescription]="ndrrp.level + ' | ' + ndrrp.country + ' | ' + ndrrp.period"></nz-card-meta>
+
+	<div class="summary-block">
+		<h3>{{ ndrrp.policy_objective.title }}</h3>
+		<p>{{ ndrrp.policy_objective.summary }}</p>
+	</div>
+
+	<div class="summary-block">
+		<h3>{{ ndrrp.policy_goal.title }}</h3>
+		<p>{{ ndrrp.policy_goal.summary }}</p>
+	</div>
+
+	<div class="summary-block meta-block">
+		<div><b>Enacted:</b> {{ ndrrp.enacted }}</div>
+		<div><b>Responsible Ministry:</b> {{ ndrrp.responsible_ministry }}</div>
+	</div>
+</nz-card>
+
+<br/>
+
+<nz-collapse>
+	<nz-collapse-panel nzHeader="Guiding Principles">
+		<nz-table #principlesTable nzBordered [nzShowPagination]="false" [nzData]="guidingPrinciples()">
+			<thead>
+				<tr>
+					<th>Principle</th>
+					<th>Title</th>
+					<th>Summary</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (principle of principlesTable.data; track principle.principle) {
+				<tr>
+					<td><b>{{ principle.principle }}</b></td>
+					<td>{{ principle.title }}</td>
+					<td>{{ principle.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Policy Strategies">
+		<nz-table #strategiesTable nzBordered [nzShowPagination]="false" [nzData]="policyStrategies()">
+			<thead>
+				<tr>
+					<th>Strategy</th>
+					<th>Title</th>
+					<th>Summary</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (strategy of strategiesTable.data; track strategy.strategy) {
+				<tr>
+					<td><b>{{ strategy.strategy }}</b></td>
+					<td>{{ strategy.title }}</td>
+					<td>{{ strategy.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Policy Premise">
+		<nz-table #premiseTable nzBordered [nzShowPagination]="false" [nzData]="policyPremise()">
+			<thead>
+				<tr>
+					<th>Area</th>
+					<th>Summary</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (premise of premiseTable.data; track $index) {
+				<tr>
+					<td><b>{{ premise.title }}</b></td>
+					<td>{{ premise.summary }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+
+	<nz-collapse-panel nzHeader="Action Item Categories">
+		<nz-table #actionsTable nzBordered [nzShowPagination]="false" [nzData]="actionItemCategories()">
+			<thead>
+				<tr>
+					<th>Category</th>
+					<th>Strategy Alignment</th>
+					<th>Action References</th>
+					<th>Note</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (category of actionsTable.data; track $index) {
+				<tr>
+					<td><b>{{ category.category }}</b></td>
+					<td>{{ category.strategy_alignment }}</td>
+					<td>
+						@for (item of actionReferences(category); track $index) {
+						<div class="nested-item">{{ item }}</div>
+						}
+					</td>
+					<td>{{ category.note ?? ndrrp.note_on_action_items }}</td>
+				</tr>
+				}
+			</tbody>
+		</nz-table>
+	</nz-collapse-panel>
+</nz-collapse>
+}
