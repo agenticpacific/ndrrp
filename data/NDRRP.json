@@ -1,0 +1,171 @@
+{
+  "framework": "National Disaster Risk Reduction Policy",
+  "level": "national",
+  "country": "Fiji",
+  "period": "2018-2030",
+  "enacted": "September 2018",
+  "responsible_ministry": "Ministry of Disaster Management and Meteorological Services",
+  "policy_objective": {
+    "title": "Policy Objective",
+    "summary": "Enable Fiji to deliver its priority of preventing new disaster risk and reducing existing disaster risk in line with relevant regional and global frameworks (the Sendai Framework for DRR 2015-2030, the Sustainable Development Agenda 2015-2030, and the Framework for Resilient Development in the Pacific)."
+  },
+  "policy_goal": {
+    "title": "Policy Goal",
+    "summary": "Stronger disaster risk governance and disaster risk reduction measures as part of the overall national effort towards sustainable and resilient development, supporting poverty alleviation."
+  },
+  "guiding_principles": [
+    {
+      "principle": 1,
+      "title": "Capacity Development",
+      "summary": "Enhance the DRR abilities of national and local government officials, civil society organisations, private sector, mass media, academia and the public through knowledge of hazards, vulnerability, exposure, coping capacity, risk governance, and DRR measures. Emphasizes trainers' training, South-South cooperation, and building capacity of local governments as the tier closest to communities."
+    },
+    {
+      "principle": 2,
+      "title": "Participatory Approaches",
+      "summary": "Require all-of-society engagement and partnership (whole-of-society approach) through empowerment and inclusive, accessible, non-discriminatory participation, paying special attention to people disproportionately affected by disasters. Promotes DRR education, community-led mechanisms, new livelihood means, and inclusion of women, children, and persons with disabilities."
+    },
+    {
+      "principle": 3,
+      "title": "Human Rights and Gender Based Approaches",
+      "summary": "Promote broad popular participation and active roles of vulnerable groups through human rights-based DRR. Ensure humanitarian assistance reaches the most vulnerable, protect against gender-based violence during emergencies, strengthen women's leadership in DRR, and reinforce roles of children, youth, persons with disabilities, and older persons in decision-making on DRR."
+    },
+    {
+      "principle": 4,
+      "title": "Safety Net Based Approaches",
+      "summary": "Establish economic and social safety nets that function equally well during preparedness, emergency response, recovery and reconstruction. Covers disaster finance management schemes (financing, risk financing/insurance, and funds), security mechanisms to protect life and assets, protection mechanisms that compensate victims, and relocation from hazardous areas as a last resort."
+    },
+    {
+      "principle": 5,
+      "title": "Multi-Hazard Approaches",
+      "summary": "Address myriad natural and human-induced/technological hazards through inclusive risk-informed decision-making based on disaggregated data, open exchange of information, and science-based non-sensitive risk information complemented by traditional knowledge. Emphasizes multi-scenario damage anticipation and thorough communication of results to stakeholders."
+    },
+    {
+      "principle": 6,
+      "title": "Cross-Cutting Approaches",
+      "summary": "Integrate DRR across multiple sectors (local government, agriculture, lands, environment, infrastructure, water, education, health, national security, economy, foreign affairs, iTaukei affairs, women, communication) through multi-stakeholder consultation, public-private partnerships, business continuity planning, mass media involvement, and resilience of national health systems."
+    },
+    {
+      "principle": 7,
+      "title": "Coordination Mechanisms",
+      "summary": "Address coordination gaps between policies and institutional arrangements at national, local and community levels, and between structural and non-structural DRR measures. Calls for a focal point agency to coordinate DRR tasks and programmes, and formation of network mechanisms among stakeholders to consolidate knowledge and establish partnerships."
+    },
+    {
+      "principle": 8,
+      "title": "Approaches to Disaster Risk Reduction",
+      "summary": "Focus on tackling underlying disaster risk factors such as poverty, unplanned urbanisation, poor land management, climate change, weak institutional arrangements, and non-risk-informed policies. Emphasizes integration of climate change adaptation and DRR, good governance, people-centred preventive approaches, and full engagement of all institutions of executive and legislative officers."
+    }
+  ],
+  "policy_strategies": [
+    {
+      "strategy": 1,
+      "title": "Mainstreaming Disaster Risk Reduction",
+      "summary": "Integrate DRR considerations into sustainable development policies, planning, programmes and financing at all levels of government. Key actions include reviewing the NDMA, setting up clear demarcation of DRR responsibilities among national and local governments, developing national and local action plans and SOPs, joint mainstreaming of DRR and CCA, and structural reforms to consolidate DRR organisations including establishing a focal point agency under the Office of the Prime Minister."
+    },
+    {
+      "strategy": 2,
+      "title": "Disaster Risk Governance",
+      "summary": "Establish a system of institutions, mechanisms, policies and legal frameworks to guide, coordinate and oversee DRR. Applies principles of good governance (transparency, effectiveness, strategic focus, sustainability, equity, rule of law, and political/legal feasibility). Strengthen disaster risk governance at preparedness, response, recovery and reconstruction stages, with national government as primary duty bearer and local governments playing key roles in land use planning, infrastructure maintenance, and enforcement of building codes."
+    },
+    {
+      "strategy": 3,
+      "title": "Financing and Investing",
+      "summary": "Secure sufficient proactive investment in DRR measures within annual government budgets, recognizing that pre-investment cost is lower than post-disaster response cost. Priorities structural measures for Disaster Risk-I category in urban areas first, then Disaster Risk-II in urban areas, then rural areas. Calls for establishment of recovery and reconstruction subsidy, disaster relief, collective relocation subsidy, funding loan, and disaster moratorium programmes, along with introduction of disaster insurance and social agreement on cost-sharing for disaster risks."
+    },
+    {
+      "strategy": 4,
+      "title": "Preparedness",
+      "summary": "Activate strong processes for preparedness through structural measures (flood control embankments, retention dams, drainage networks, mangrove planting, sea walls, safer schools and hospitals, evacuation centres) and non-structural measures (DRR education, improving regulatory environment, disaster risk assessment, building code updates, hazard monitoring and warning systems, business continuity plans, and continuous public awareness-raising through 'no regrets' strategies)."
+    },
+    {
+      "strategy": 5,
+      "title": "Emergency Response",
+      "summary": "Execute well-coordinated humanitarian emergency response through the Disaster Risk Information System (DRIS) comprising information collection, analysis, dissemination and management sub-systems. Streamline early warning systems for evacuation, establish institutional reporting arrangements, clarify SOPs with rescue-and-relief principles and timelines, and strengthen the Fiji Cluster System for humanitarian response coordination with inclusion of all stakeholders and the Protection Code of Conduct for Humanitarian Workers."
+    },
+    {
+      "strategy": 6,
+      "title": "Recovery and Reconstruction",
+      "summary": "Provide livelihood support to disaster victims and resume productive activities during recovery stage, with streamlined Fiji Cluster System and improved shelter conditions. At reconstruction stage, formulate national reconstruction plans based on PDNA and DLDA outcomes, with Build Back Better (BBB) as the goal for infrastructure, houses and production facilities. Use public emergency broadcasting system for information dissemination and generate broad national understanding of reconstruction objectives."
+    },
+    {
+      "strategy": 7,
+      "title": "Knowledge and Information",
+      "summary": "Improve knowledge, information, attitudes and practices on how to respond to and reduce disaster risk. Leverage traditional wisdom and customs (e.g., traditional Fijian bures with cyclone-resistant design), implement DRR education to cultivate disaster information literacy, cultivate culture of community volunteering, wage tree-planting campaigns, convene regular CCA/DRR roundtable meetings, improve broadcast programmes, draw up an overall picture of DRR measures, and develop a 'Disaster Risk Reduction White Paper for Fiji'."
+    }
+  ],
+  "policy_premise": {
+    "characteristics_of_climate_change_and_disaster_risks": {
+      "summary": "Fiji has inherently high exposure to cyclones, tropical storms, storm surge, flooding, landslides, earthquakes and tsunamis. Overall risk is increasing due to population pressures, poorly regulated land resources and climate change. Human-induced/technological hazards compound natural hazards. Disaster risks are classified into three categories: Disaster Risk-I (large-scale, high-frequency, strong-impact hazards in urban areas requiring structural measures); Disaster Risk-II (small-scale, high-frequency, smaller-impact hazards affecting community households and SMEs, addressed through both structural and non-structural measures); and Disaster Risk-III (earthquake and tsunami risks requiring non-structural measures in the near term due to prohibitive cost of structural measures)."
+    },
+    "sectoral_implications": {
+      "summary": "Nearly all social systems are heavily impacted by major hazard events. Key external environment factors include: geographic extent of an island nation making communications difficult; topographic variability with low-lying coastal areas and steep unstable hills; diverse ecosystems providing coastal protection; vulnerable fresh-water resources; high population density in coastal areas; socio-economic disparity in rural and low-lying island populations; and primary industry-based economy vulnerable to drought, flood and global market influences. Table 25 in Annex 10 provides projected and potential disaster risk impacts by sector."
+    },
+    "constrained_conditions": {
+      "summary": "Major constraints include: underlying disaster risk factors (poverty, hunger, disease, conflict, inadequate health services, inadequate education, inadequate infrastructure, poor water and sanitation, poor housing, unemployment, land degradation, gender violence, gender discrimination); impediments of institutional framework (uncoordinated sectoral development, lack of DRR integration into planning and budgeting, lack of national repository for risk information, inconsistent methodologies, inefficient early warning); impediments of supporting legislation (existing laws do not adequately consider CCA/DRR, lack of enforcement); impediments of national planning (inadequate consideration in land-use plans, uncontrolled clearing, ageing infrastructure, lack of community involvement, lack of women's roles); impediments of governance (lack of demarcation of responsibilities, lack of accountability, unsustainability, short-term expediency, indecision, inequity); impediments of coordination (insufficient coordination between NDMO and relevant organisations); impediments of human resources (lack of capacities at all levels, lack of personnel with relevant expertise, inability to retain skilled personnel, lack of financing for core CCA/DRR personnel); impediments of awareness and training (poor understanding of DRR concepts, lack of sound information for decision-making, lack of public awareness, poor access to information, lack of information sharing); impediments of education (inadequate CCA/DRR in curricula, inadequate school disaster management, lack of high-level CCA/DRR education); and disparity among people (economic, regional, vulnerability, gender, age, disability, information, communication, and awareness disparities)."
+    }
+  },
+  "action_items_categories": [
+    {
+      "category": "Policy and Legal Framework",
+      "strategy_alignment": "Mainstreaming DRR and Disaster Risk Governance",
+      "identified_action_references": [
+        { "number": 1, "action": "Review and update the Natural Disaster Management Act (NDMA) to incorporate DRR, climate change, gender, disability, and cluster system provisions" },
+        { "number": 2, "action": "Develop National Disaster Risk Reduction Action Plans and Standard Operating Procedures (SOPs)" },
+        { "number": 3, "action": "Formulate local DRR action plans and SOPs for provincial authorities and municipal councils" },
+        { "number": 4, "action": "Establish demarcation of DRR responsibilities among national, local governments and communities in the new NDMA" },
+        { "number": 30, "action": "Demarcation on DRR Operation responsibilities among relevant agencies" }
+      ],
+      "note": "Action items extracted from cross-references within the document text; the full Table-11 (122 action items, pages 63-81) is in OCR-garbled format and individual items could not be reliably extracted with their supporting and implementing agencies."
+    },
+    {
+      "category": "Disaster Risk Information and Early Warning Systems",
+      "strategy_alignment": "Emergency Response and Multi-Hazard Approaches",
+      "identified_action_references": [
+        { "number": 28, "action": "Tsunami Warning and Cancellation system" },
+        { "number": 65, "action": "Multi-Hazard Early Warning System" },
+        { "number": 66, "action": "Standardisation of Telecommunication Services" },
+        { "number": 67, "action": "Emergency Communication Network" },
+        { "number": 68, "action": "Information Collection and Dissemination System" },
+        { "number": 69, "action": "Tsunami Siren Networks and Evacuation Drills" },
+        { "number": 70, "action": "Geographic Information System (GIS)" },
+        { "number": 74, "action": "Timeline DRR System" },
+        { "number": 75, "action": "Warning Criteria on Disaster Risks" },
+        { "number": 76, "action": "Criteria for Power Transmission/Distribution Line Routes" },
+        { "number": 77, "action": "Storm Surge Prediction and Coastal Inundation Prediction System" },
+        { "number": 78, "action": "Catchment Monitoring and Flood Prediction Systems" },
+        { "number": 79, "action": "Meteorological Drought Prediction System and Forest Fire Watch System" },
+        { "number": 80, "action": "Survey, Observation and Gauging of Hazards" },
+        { "number": 81, "action": "Consignment Observation System for Hydro-Meteorological Observation" },
+        { "number": 82, "action": "Colour Coding System for hazard warnings" },
+        { "number": 85, "action": "Multi-Hazard Risk Mapping" },
+        { "number": 88, "action": "Consolidation of DRR Database Systems" },
+        { "number": 91, "action": "DRR Timeline System" },
+        { "number": 122, "action": "Public Emergency Broadcasting System" }
+      ]
+    },
+    {
+      "category": "Emergency Response and Humanitarian Operations",
+      "strategy_alignment": "Emergency Response and Safety Net Based Approaches",
+      "identified_action_references": [
+        { "number": 92, "action": "Emergency Medical Team" },
+        { "number": 93, "action": "Relief and Rescue Operation" },
+        { "number": 95, "action": "Rescue and Relief Operation" },
+        { "number": 105, "action": "Progressive Relocation" }
+      ]
+    },
+    {
+      "category": "Financing, Investment and Protection Mechanisms",
+      "strategy_alignment": "Financing and Investing and Safety Net Based Approaches",
+      "identified_action_references": [
+        { "number": 39, "action": "Subsidy Disaster Recovery programme" },
+        { "number": 40, "action": "Disaster Relief Programme" },
+        { "number": 41, "action": "Collective Relocation Subsidy Programme" },
+        { "number": 42, "action": "Funding Loan Programme" },
+        { "number": 43, "action": "Disaster Moratorium Programme" },
+        { "number": 44, "action": "Disaster Protection Programme on Disaster Risk Reduction" },
+        { "number": 45, "action": "Disaster Insurance Programme" },
+        { "number": 46, "action": "Climate Based Insurance Programme" }
+      ]
+    }
+  ],
+  "note_on_action_items": "The NDRRP contains 122 action items in Table-11 (Progress Schedule Chart, pages 63-81) organized by policy strategy with designated supporting and implementing agencies per item. The document source is a scanned/OCR'd PDF and the action items table text is heavily garbled; individual agency assignments, detailed summaries, and timeline information for each action item could not be reliably extracted. The categories and action references above were identified from cross-references in the main body text."
+}

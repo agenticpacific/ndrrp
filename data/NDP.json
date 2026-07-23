@@ -1,0 +1,328 @@
+{
+  "framework": "Fiji National Development Plan",
+  "level": "national",
+  "country": "Fiji",
+  "period": "2025-2029",
+  "vision_2050": {
+    "summary": "Fiji aspires to be a prosperous, inclusive and sustainable nation by 2050 — a high-income, advanced economy, a regional leader in innovation and technology, with modern infrastructure, environmental stewardship, high moral and ethical values, rich culture and heritage, excellence in sports, extensive international diplomacy, and entrenched high standards of governance. It will be realised through successive medium-term national development plans."
+  },
+  "vision": {
+    "title": "Empowering the People of Fiji through Unity",
+    "summary": "The NDP 2025-2029 is founded on the vision of empowering the people of Fiji through unity, translated through 3 pillars: economic resilience, people empowerment and good governance, with the ultimate goal of improving social wellbeing and bringing greater prosperity to the people and the nation."
+  },
+  "mission": {
+    "title": "Mission",
+    "summary": "The Government prioritises the needs of all the people of Fiji at the centre of its national development policy and planning."
+  },
+  "cross_cutting_priorities": [
+    {
+      "priority": "Role of Government",
+      "summary": "The Government will gradually rationalise its role in economic activities, not compete directly with the private sector, and confine itself to four key areas: reducing the size and role of Government in the economy; efficient public service facilitation through removal of regulatory barriers; provision of quality public goods; and establishment of public-private partnerships where feasible."
+    },
+    {
+      "priority": "Community Empowerment",
+      "summary": "People and community empowerment forms the foundation of a democratic society where communities can participate actively in decision-making and take advantage of development opportunities, with special emphasis on the poor, disadvantaged and vulnerable, youth and women."
+    },
+    {
+      "priority": "UN Sustainable Development Goals",
+      "summary": "Fiji's progress on the 169 SDG targets is mixed — good progress in 14%, 27% achievable with accelerated action, 17% regressed, 43% could not be measured. The NDP policies and strategies are consciously aligned to the SDGs."
+    },
+    {
+      "priority": "Moral and Ethical Values",
+      "summary": "The NDP places strong emphasis on instilling moral, ethical and social values particularly among children and youth, harnessing the family unit, education system, CSOs, faith-based organisations and the community to address increasing crime, domestic violence, indiscipline and drug abuse."
+    },
+    {
+      "priority": "Commitment to Political Stability",
+      "summary": "Government is committed to resetting Fiji's political future to achieve stability, recognising that economic, ecological, political and global shocks do not discriminate. All Fijians must move forward in unity based on mutual respect and the principles of good governance, accountability and rule of law."
+    },
+    {
+      "priority": "Strengthening Good Governance",
+      "summary": "Government supports and protects fundamental human rights, espouses the UNESCAP definition of good governance encompassing 8 characteristics (participatory, consensus oriented, accountable, transparent, responsive, effective and efficient, equitable and inclusive, and follows the rule of law), and commits to minimising corruption."
+    },
+    {
+      "priority": "Mainstreaming Climate Change",
+      "summary": "Tropical cyclones and floods currently cause average losses exceeding $500 million per year (~5% of GDP). Fiji is committed to reducing greenhouse gas emissions by 30% by 2030 and achieving net zero by 2050, mainstreaming climate change response across education, healthcare, housing, infrastructure, rural/urban development, and women/youth empowerment."
+    },
+    {
+      "priority": "Gender Mainstreaming",
+      "summary": "Despite females making up 49.3% of Fiji's population, gender inequality persists (ranked 107 out of 146 countries by WEF 2022). The NDP integrates gender considerations into the development process, sectoral policies, strategies and government budgeting to ensure equality and inclusivity and address gender violence."
+    }
+  ],
+  "pillars": [
+    {
+      "pillar": 1,
+      "title": "Economic Resilience",
+      "focus_areas": [
+        {
+          "focus_area": 1,
+          "title": "Building Macroeconomic Confidence and Stability",
+          "summary": "Fiji is forecast to experience growth of 2.8% in 2024 and 3% in 2025-2026. The focus is on strengthening macroeconomic stability by narrowing the trade deficit, achieving price stability through prudent monetary and fiscal policy, improving the fiscal position through judicious expenditure consistent with revenue and debt strategy, and maintaining low and stable inflation with adequate foreign reserves."
+        },
+        {
+          "focus_area": 2,
+          "title": "Fostering International and Regional Relations",
+          "summary": "Fiji's foreign policy is underpinned by three pillars — sovereignty (safeguarding territorial integrity, promoting Fiji as a regional hub), security (promoting democracy, rule of law, human rights, strengthening security alliances), and prosperity (poverty alleviation, improving economic position of indigenous Fijians, trade expansion, FDI)."
+        },
+        {
+          "focus_area": 3,
+          "title": "Sustainably Managing Natural Resources",
+          "summary": "Focuses on enhancing sugar through cogeneration, climate-resilient varieties and value addition; strengthening non-sugar crops and livestock for food security and commercial agriculture; sustainable forest management with private sector participation; improving land access through institutional and legislative reforms; sustainable development of mineral and groundwater resources; and sustainable management of offshore and inshore fisheries and aquaculture.",
+          "sub_chapters": [
+            {
+              "title": "Sugar",
+              "summary": "Aims to revitalise the declining sugar industry (contribution fell from 3% to 1% of GDP) through milling efficiency improvements, cogeneration, ethanol plants, climate-resilient cane varieties, quality standards, intercropping, value-added products, youth attraction, and review of institutions and legislations."
+            },
+            {
+              "title": "Non-Sugar, Crops and Livestock",
+              "summary": "Seeks a competitive, resilient and sustainable agriculture sector contributing 7% of GDP and employing ~98,000 farmers. Focus areas include food and nutrition security, crop diversification, commercial agriculture for major commodities, improved market access, climate-smart agriculture, youth and women participation, and iTaukei business venture ownership."
+            },
+            {
+              "title": "Forestry",
+              "summary": "Aims for sustainable management of Fiji's 1.1 million hectares of forest (60% of land area). Strategies include strengthening sustainable forest management, reviewing policies and laws (Forest Act 1992, REDD+ Policy), encouraging private sector plantation investment, promoting wood and non-wood forest products, carbon trading (first SIDS with ERPA), and the 30 million trees in 15 years campaign."
+            },
+            {
+              "title": "Land Management and Development",
+              "summary": "Aims to mobilise iTaukei and state land for economic empowerment. Almost 90% of land is under customary ownership. Strategies include reviewing the State Lands Act and Land Use Act, formulating a Valuation Act and Groundwater Management Act, establishing a Land Use Master Plan, digitalising lease applications, fast-tracking approvals, initiating iTaukei land legislation reforms, and promoting solesolevaki framework for equity ownership."
+            },
+            {
+              "title": "Mineral and Groundwater Resources",
+              "summary": "Focuses on sustainable development of groundwater and mineral resources (mining contributes 0.5% of GDP). Strategies include reviewing the Mining Act 1965, Quarries Act 1939 and Explosives Act 1937, developing groundwater extraction guidelines, updating the groundwater inventory, empowering communities in water management, and building capacity in geosciences."
+            },
+            {
+              "title": "Marine Resources",
+              "summary": "Aims for sustainable management, development and protection of Fiji's fisheries across offshore, inshore and aquaculture sectors within the ~1.28 million sq km EEZ. Strategies include comprehensive review of fisheries laws, finalising the National Fisheries Policy, strengthening regional trade agreements, implementing electronic monitoring to combat IUU fishing, enhancing aquaculture PPP framework, and promoting women and youth participation."
+            }
+          ]
+        },
+        {
+          "focus_area": 4,
+          "title": "Catalysing Economic Growth and Diversifying the Economy",
+          "summary": "Promotes greater private sector participation as the driver of economic growth by reducing regulatory impediments, reducing bureaucratic red tape, addressing labour and talent constraints, improving land access, giving special attention to MSMEs to increase their contribution to GDP, and rationalising the role of Government through SOE divestment where appropriate.",
+          "sub_chapters": [
+            {
+              "title": "Trade and Market Access",
+              "summary": "Aims to enhance Fiji's trade and economic position globally through a revamped Trade Policy Framework 2025-2030, participation in IPEF, WTO commitments, export diversification, simplification of cross-border trade, enhancement of digital trade and e-commerce, improvement of national quality infrastructure, and strengthening supply chain resilience."
+            },
+            {
+              "title": "Private Sector Growth and Participation",
+              "summary": "Seeks to promote private sector participation by creating a conducive ecosystem — reviewing the Investment Act 2021, streamlining regulatory processes including digitalisation of business permits (FILPAS), building human capital, improving access to finance for MSMEs, strengthening institutions and judiciary, and attracting FDI. Target: Investment to GDP of 20%."
+            },
+            {
+              "title": "Manufacturing",
+              "summary": "Aims to position Fiji as an e-commerce and innovation hub with sustainable manufacturing and export diversification. The sector contributes ~19.8% of GDP and employs 13.9% of paid workforce. Strategies include improving quality of domestic production, expanding industrial base, increasing value addition, and expanding private investment."
+            },
+            {
+              "title": "Tourism",
+              "summary": "Aims for a greener and innovative tourism industry, contributing ~40% of GDP and as the largest formal employer. Strategies include developing a Tourism Act, introducing sustainable tourism standards, targeting niche segments (luxury, MICE, medical, sports, eco-tourism), creating linkages with agriculture and fisheries, and strengthening community-based tourism."
+            },
+            {
+              "title": "Micro, Small and Medium Enterprises and Creative Industries",
+              "summary": "Seeks to enhance MSME contribution from 18% to 22% of GDP and from 60% to 65% of employment. Strategies include improving access to finance through FDB, digitisation, establishing a Central Online Database for MSMEs, strengthening MSME infrastructure in municipalities, re-introducing credit guarantee schemes, and developing micro-insurance products."
+            },
+            {
+              "title": "Audio Visual Industry",
+              "summary": "Aims to strengthen and promote the AV industry which generated $444.21 million in 2019. Strategies include implementing recommendations from the ADB Economic Study, reviewing Film Fiji Act 2002, creating an audio-visual ecosystem, promoting Fiji as a filming destination, and building capacity of local crew and filmmakers."
+            },
+            {
+              "title": "Financial Services",
+              "summary": "Aims for a sustainable financial services sector contributing 20.7% of GDP. Strategies include reviewing and modernising the Banking Act 1995, Insurance Act 1998 and Credit Union Act 1954, strengthening financial literacy, promoting insurance uptake, increasing digitalisation of payments, improving protection against financial fraud, promoting financial inclusion, and developing capital markets for MSMEs."
+            },
+            {
+              "title": "Construction Industry",
+              "summary": "Aims for a robust, sustainable and resilient construction sector contributing 2.9% to GDP. Strategies include reviewing the National Building Code, introducing builder licensing legislation, addressing the skills shortage exacerbated by emigration, enhancing climate resilience and green building practices, and promoting entrepreneurship."
+            },
+            {
+              "title": "Outsourcing Industry",
+              "summary": "Aims to leverage Fiji as a leading outsourcing hub generating $200 million revenue and employing 8,000 workers (target 25,000 by 2030). Strategies include strengthening the Investment Act and Immigration Act for outsourcing, establishing Special Economic Zones, developing focused incentives for MNEs, market diversification, and designing digital skills training."
+            },
+            {
+              "title": "Information and Communications Technology",
+              "summary": "Aims for a resource-efficient, cost-effective ICT sector fostering the digital economy. Strategies include adopting a National Digital Strategy, strengthening cybersecurity (National Cybersecurity Strategy), facilitating 5G deployment, improving digital inclusion and literacy, expanding online government services, and strengthening data sharing across government."
+            },
+            {
+              "title": "Research and Development and Innovation",
+              "summary": "Aims to promote RDI and adopt advanced technologies including IR 4.0 and AI to accelerate economic growth. Currently minimal RDI investment. Strategies include formulating a National Policy on Science, Technology and Innovation, establishing a Triple Helix Model (academia-government-industry), creating centres of excellence and a Science and Technology park, and expanding RDI funding options."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pillar": 2,
+      "title": "People Empowerment",
+      "focus_areas": [
+        {
+          "focus_area": 5,
+          "title": "Uplifting Socioeconomic Wellbeing",
+          "summary": "Takes a holistic approach to uplifting social wellbeing including addressing poverty (target 18% by 2030), education, healthcare, affordable housing, urban development, empowering women, and the protection of children and people with disabilities. Government continues free primary, secondary and tertiary education, enhances TVET, expands primary and secondary healthcare, and addresses NCDs.",
+          "sub_chapters": [
+            {
+              "title": "Poverty Alleviation and Social Protection",
+              "summary": "24.1% of Fijians (~258,000 individuals) live under the Basic Needs Poverty Line. Strategies include developing income-generating opportunities under the Integrated National Poverty Eradication Programme, expanding social protection (Family Assistance Scheme, Social Pension Scheme supporting ~26,200 elderly, Bus Fare Concession), poverty graduation programmes, and conditional cash transfers."
+            },
+            {
+              "title": "Healthcare",
+              "summary": "Aims to modernise Fiji's healthcare system. NCDs account for over 70% of premature deaths. Strategies include establishing programmes to control NCDs, strengthening mental health services, providing comprehensive life-cycle healthcare, improving healthcare literacy, fostering R&D in healthcare, expanding primary healthcare, modernising health infrastructure, and addressing the exodus of medical professionals."
+            },
+            {
+              "title": "Education and Training",
+              "summary": "Aims to nurture innovative lifelong learners through quality education delivery. Net enrolment: ~100% primary, ~80% secondary. Strategies include reviewing the Education Act 1966 and other key legislations, improving LANA achievement rates, strengthening TVET and MATUA programmes, improving teacher-to-student ratios (target 1:40 primary, 1:30 secondary), expanding ECCE, and establishing the Fiji National Research Council."
+            },
+            {
+              "title": "Housing",
+              "summary": "Aims to provide accessible and adequate housing. Approximately 25% of urban population live in over 250 informal settlements. Strategies include the IFC PPP Project to supply ~3,000 affordable housing units, upgrading informal settlements (target 6 formalised/upgraded), providing first-time homeowner grants, promoting green building practices, strengthening the rental market, and developing resilient rural housing."
+            },
+            {
+              "title": "Urban Development",
+              "summary": "Aims for resilient and environmentally sustainable urban centres. Approximately 58% of population resides in urban areas. Strategies include reviewing legislative and policy frameworks, enhancing service delivery, undertaking climate change modelling and hazard mapping for all urban centres, strengthening urban management at municipal level, and developing spatial plans with 20-year miniature models."
+            },
+            {
+              "title": "Rural and Outer Island Development",
+              "summary": "94% of Fiji's land area constitutes rural and outer islands with 44.7% of population residing there. Strategies include expanding access to rural infrastructure (roads, jetties, bridges, seawalls, electrification, water supply), improving connectivity and accessibility, promoting sustainable rural economic activities, strengthening the Integrated Rural Development Framework, and mainstreaming disaster risk reduction in all aspects of rural development."
+            },
+            {
+              "title": "Population, Employment and Labour Market",
+              "summary": "Population estimated at 900,886 in 2025 with 69% below age 40. Unemployment rate at 4.3% (lowest in 20 years) with target 3.8%. Strategies include reviewing and modernising employment relations framework, strengthening workplace compliance, improving labour market services, strengthening participation in Labour Mobility Programmes (PALM Scheme, RSE), addressing skill gaps, and implementing the National Productivity Master Plan."
+            },
+            {
+              "title": "Protection of Children, Youth and People with Disabilities",
+              "summary": "Aims to provide a safe and conducive environment. Child abuse cases increased from 838 (2018) to 1,968 (2022). Over 50% of population is under 34. Strategies include aligning child protection legislation to UNCRC, strengthening safety and care (Child Protection Allowances), preventing child abuse including finalising the Volatile Substance Abuse Bill, promoting youth education and training for decent employment, empowering youth participation, and ensuring rights and accessibility for persons with disabilities."
+            },
+            {
+              "title": "Culture and Heritage",
+              "summary": "Aims to promote and protect Fiji's diverse cultural heritage. Strategies include reviewing the iTaukei Affairs Act 1944, Fiji Museum Act 1929 and National Trust of Fiji Act 1970, implementing the National Cultural Policy, completing cultural mapping of all 14 provinces, establishing a Cultural Tourism Framework, digitalising the Vola ni Kawa Bula, and integrating culture into the formal education curriculum."
+            },
+            {
+              "title": "Sports Development",
+              "summary": "Aims to develop talent and achieve sporting excellence. Sports tourism contributed $67.1 million and created 21,000 employment opportunities in 2023. Strategies include establishing a National Sports Talent Identification System, promoting sports as a mechanism for economic development, developing sports facilities and sports medicine infrastructure, hosting major international events, and increasing female sports participation."
+            },
+            {
+              "title": "iTaukei Participation in Development",
+              "summary": "Aims to strengthen iTaukei involvement through inclusive development. Key initiatives include institutional review of iTaukei institutions (TAB, TLFC, TLTB, TTFB, CATD, FHL), joint approach through the Solesolevaki framework (4-phase structure from landowner investment to market access), natural resource development, indigenous participation in business, unlocking the culture and heritage sector, and improving socioeconomic wellbeing of iTaukei people."
+            },
+            {
+              "title": "Women in Economic Development",
+              "summary": "Aims to empower women to increase economic contribution. Women's composition in paid employment increased from 36.8% (2018) to 37.2% (2019). Only 19% of registered MSMEs list women as owners. Strategies include improving access to income-generating activities, promoting women in leadership and STEM, reducing violence through coordinated referral networks, strengthening the Gender Budget Template, and encouraging greater women participation in formal and informal sector employment."
+            }
+          ]
+        },
+        {
+          "focus_area": 6,
+          "title": "Developing Public Infrastructure, Protecting Environment and Addressing Climate Change",
+          "summary": "Aims to systematically improve the accessibility, quality and efficiency of infrastructure to support growth and enhance the standard of living. Focuses on achieving an integrated, eco-friendly and safe transport system; transforming the energy sector to be resilient and renewable-based; increasing access to clean water and sanitation; improving solid waste management; and strengthening resilience to climate change and natural disasters.",
+          "sub_chapters": [
+            {
+              "title": "Transport",
+              "summary": "Seeks an integrated, eco-friendly, safe, accessible and efficient transportation system. Land transport assets valued at ~$11 billion with over $1.7 billion allocated over 5 years. Strategies include upgrading and maintaining roads, ports, wharves, rural airstrips; improving public transport; promoting electric vehicles; decarbonising maritime transport; expanding air connectivity through bilateral open skies agreements; and establishing a Transport Master Plan. Target: reduce road fatalities from 72 to 36."
+            },
+            {
+              "title": "Energy and Electricity",
+              "summary": "Seeks a resilient, resource-efficient, energy sector with ~98% electricity access. EFL produced 55.3% from renewables in 2022 with a mission for 90% renewable by 2025. Strategies include improving access to affordable renewable energy, increasing private sector participation by reviewing the Electricity Act 2017, upgrading infrastructure, enhancing energy efficiency, and strengthening resilience of energy infrastructure to climate impacts. Target: 100% renewable energy share in electricity generation."
+            },
+            {
+              "title": "Water and Wastewater",
+              "summary": "Seeks sustainable management of water and sanitation. 82% of population have access to treated water but only 28% to central sewerage. Non-revenue water stands at 48%. Strategies include finalising the National Water Resource Management and Sanitation Policy, corporatising WAF, formulating the Rural Water Supply and Sanitation Master Plan, expanding access, promoting desalination and ecological purification systems, and ensuring long-term freshwater resource security. Target: 88% total population access to clean water."
+            },
+            {
+              "title": "Solid Waste Management",
+              "summary": "Seeks a sustainable waste management system. Only 0.2% of waste was recycled in 2021. Strategies include establishing a landfill and recycling plant in the Western Division, introducing recycling programmes, enhancing compliance with single-use plastic bag bans, promoting circular economy approaches, upgrading healthcare waste infrastructure, and reviewing waste management legislation."
+            },
+            {
+              "title": "Environment and Climate Change",
+              "summary": "Seeks sustainable and integrated approaches against climate change. Fiji recorded 0.9°C temperature rise since 1959 and 3-4mm/year sea-level rise. Energy sector accounts for 52.7% of GHG emissions. Strategies include institutionalising climate risk management, accelerating resilient development through national compliance standards, improving national capacity for strategic foresight, integrating climate projections across all sector plans, preserving natural carbon sinks, operationalising the Warsaw International Mechanism for Loss and Damage, and leveraging international climate finance."
+            },
+            {
+              "title": "National Disaster Risk Reduction",
+              "summary": "Seeks building resilience through risk-informed development. TC Winston (2016) caused $2 billion in economic impact affecting 540,000 people. Fiji needs an estimated $9.3 billion over 10 years for climate resilience investment. Strategies include strengthening integration of climate and disaster risk in development planning, developing a Disaster Risk Financing Policy, strengthening multi-hazard early warning systems, establishing resilient multipurpose evacuation centres, and mainstreaming DRR at the local level."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pillar": 3,
+      "title": "Good Governance",
+      "focus_areas": [
+        {
+          "focus_area": 7,
+          "title": "Committing to Governance, Institutional and State-Owned Entity Reforms",
+          "summary": "Emphasises strengthening governance and undertaking institutional reforms to support holistic, effective and efficient implementation of the Plan. Encompasses civil service reforms, Rule of Law and Justice, State Administration and Parliament, and State-Owned Entities. Core commitments include reviewing the 2013 Constitution, ensuring separation and independence of the three arms of Government, and having zero tolerance for corruption.",
+          "sub_chapters": [
+            {
+              "title": "Rule of Law and Justice",
+              "summary": "Aims to ensure safety, security and wellbeing of Fiji and all Fijians. Strategies include reviewing the 2013 Constitution, strengthening regulatory and legal framework, ensuring independent judiciary, upgrading court facilities, expanding legal aid services (LAC offices grew from 18 to 27), strengthening police professionalism (review of Police Act 1965), establishing a Drugs and Narcotics Bureau, combating corruption (target PCI score of 60 from baseline 52), and upholding human rights."
+            },
+            {
+              "title": "State Administration and Parliament",
+              "summary": "Aims to strengthen democracy through effective Parliament and State Institutions. Parliament has 55 seats with 6 Standing Committees. Strategies include strengthening Parliamentary processes and ICT infrastructure, supporting MPs with capacity building, re-establishing the independent Parliamentary Counsel, strengthening core public sector agencies (reviewing Audit Act 1969 and Statistics Act 1961), improving fiscal transparency, and conducting free and fair elections."
+            },
+            {
+              "title": "Civil Service Reforms",
+              "summary": "Aims to develop a modern, high-performing Civil Service responsive to Government priorities. Civil service employs over 30,000 (~32,092 as of April 2024) with salary/wage spending at 8.7% of GDP. Approximately 15% of positions remain vacant due to outward migration. Strategies include right-sizing the public service to ~25,000, reviewing remuneration and salary structure, developing an effective Performance Management System, establishing the Fiji Learning Institute for Public Service, strengthening transparency and accountability, and decentralising public services."
+            },
+            {
+              "title": "State-Owned Entities",
+              "summary": "Aims for high-performing SOEs with enhanced accountability, transparency and governance. 19 active SOEs contribute 3.7% to GDP but control 16-20% of gross fixed investment. Average Return on Equity at 4% and Return on Asset at 2.1%. Strategies include enhancing SOE performance through commercialisation, expanding private sector involvement (divestment/sale), formulating a privatisation policy framework, improving accountability through publishing annual reports, developing merit-based board director selection guidelines, and divesting shares in EFL, PAFCO and AFL to iTaukei investors."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x_factors": [
+    {
+      "x_factor": 1,
+      "title": "Promoting Private Sector Participation in the Economy and Rationalising the Role of Government",
+      "rationale": "Fiji's real GDP growth has averaged 2-3% over the last decade, below its potential. Private sector participation is limited to few sectors, constrained by heavy regulatory burden and high cost of doing business. Government involvement through SOEs crowds out private investment. Opening space for private investment can unleash higher growth trajectory.",
+      "what_will_be_done": "Government will create a conducive ecosystem by reducing policy and regulatory impediments, reducing bureaucratic red tape, addressing labour and talent constraints, improving land access, and considering appropriate incentives. MSMEs will receive special attention to increase their GDP contribution. Government will open new opportunities for private investment in areas like public infrastructure, housing, healthcare and tertiary education through PPPs. Government will rationalise its participation in the economy through SOEs by gradually divesting where appropriate."
+    },
+    {
+      "x_factor": 2,
+      "title": "Promoting Research and Development and Innovation and Technology Adoption",
+      "rationale": "Currently minimal RDI activities in both public and private sectors with a general lack of understanding of its importance. Given the onset of the 4th Industrial Revolution driven by digitalisation, Fiji needs to adopt and apply these technologies across all aspects of operation and development to increase productivity, raise incomes, create new high-value jobs, move up the value chain and diversify the economic base.",
+      "what_will_be_done": "Government in consultation with the private sector will create and implement the policy, strategy and institutional framework for RDI and promote technology adoption. RDI initiatives will focus on strategic areas consistent with development priorities (agriculture, manufacturing, services, environmental conservation, disaster risk management). Special attention will be on Artificial Intelligence. Government will consider appropriate incentives, funding modalities including a match grant scheme, and capacity building to support RDI."
+    },
+    {
+      "x_factor": 3,
+      "title": "Intensifying Rural and Outer Island Transformation",
+      "rationale": "Development in rural and outer islands has lagged and the rural-urban gap has widened, although slightly less than half the population resides in these areas. Poverty incidence is higher in rural areas. Access to basic facilities like clean water, electricity, proper sanitation, internet connectivity is lacking. Poor condition of rural roads, bridges and jetties limits mobility. Schools and healthcare facilities need upgrading. These areas are more vulnerable to natural disasters and climate change, which has also driven rural-to-urban migration.",
+      "what_will_be_done": "The NDP will intensify efforts and allocate greater resources for rural and outer island development to ensure balanced development. Measures include improving connectivity through better roads and jetties, providing basic infrastructure (bridges, seawalls, electricity, water, drainage, transportation, communication), prioritising rural road construction and maintenance, promoting sustainable and resilient resource-based economic activities, improving schools and healthcare access, and mainstreaming disaster risk reduction."
+    },
+    {
+      "x_factor": 4,
+      "title": "Strengthening Resilience against the Impacts of Natural Disaster and Climate Change",
+      "rationale": "Fiji is highly exposed and vulnerable to natural disasters and climate change due to its geographic location and topography. TC Winston caused significant property loss and set back economic and social progress. Measures to strengthen resilience must be taken in parallel with strategies for economic growth and social wellbeing to safeguard development gains.",
+      "what_will_be_done": "The NDP introduces a comprehensive policy and strategy framework including mainstreaming climate resilience and disaster risk reduction in development planning (infrastructure, spatial and sector planning), enforcing stricter compliance to related standards and codes, increasing investment in adaptation measures, increasing national capability for risk foresight and early detection, establishing the National Disaster Management Office, developing a joint action plan for climate change and DRR, developing a Disaster Risk Financing Policy with innovative financing solutions, and strengthening the multi-hazard warning system with a people-centred approach."
+    },
+    {
+      "x_factor": 5,
+      "title": "Commitment to Implementation and Accountability",
+      "rationale": "A plan defeats its purpose if not implemented and progress not monitored. Good governance requires institutionalised platforms for people to hold Government accountable. An IME framework is essential for timely implementation, optimised resource allocation, improved programme effectiveness, and enabling stakeholder engagement and feedback to take corrective measures.",
+      "what_will_be_done": "The NDP is underpinned by an integrated IME framework to track quarterly and yearly implementation. Policies and strategies are accompanied by high-level outcomes which will be the KPIs of respective Permanent Secretaries. Ministries will develop credible and realistic outputs and report quarterly and annually. A Cabinet Sub-Committee on IME will be established to safeguard taxpayer funds, optimise resource utilisation and maximise policy impacts. Public reporting will include quarterly publications and an annual report card."
+    }
+  ],
+  "targets_and_kpis": [
+    { "indicator": "Average Annual Growth Rate (%)", "target": "4 - 5", "pillar": "Economic Resilience" },
+    { "indicator": "Net Fiscal Deficit (% of GDP)", "target": "2.5", "pillar": "Economic Resilience" },
+    { "indicator": "Debt (% of GDP)", "target": "74.0", "pillar": "Economic Resilience" },
+    { "indicator": "Forest area as proportion of Total Area (%)", "target": "64", "pillar": "Economic Resilience" },
+    { "indicator": "Investment to GDP (%)", "target": "20", "pillar": "Economic Resilience" },
+    { "indicator": "Contribution of Manufacturing to GDP (%)", "target": "21", "pillar": "Economic Resilience" },
+    { "indicator": "Visitor Arrivals (number in million)", "target": "1.5", "pillar": "Economic Resilience" },
+    { "indicator": "Contribution of MSMEs to GDP (%)", "target": "22", "pillar": "Economic Resilience" },
+    { "indicator": "Adults owning Bank Accounts (%)", "target": "95", "pillar": "Economic Resilience" },
+    { "indicator": "Mobile Network Coverage (% of population)", "target": "96", "pillar": "Economic Resilience" },
+    { "indicator": "Incidence of Poverty (%)", "target": "18", "pillar": "People Empowerment" },
+    { "indicator": "Informal settlements formalised and upgraded (number)", "target": "6", "pillar": "People Empowerment" },
+    { "indicator": "Net Enrolment rate for Early Childhood Education (%)", "target": "100", "pillar": "People Empowerment" },
+    { "indicator": "Rural Population with Electricity Access (%)", "target": "93", "pillar": "People Empowerment" },
+    { "indicator": "Rural Population with Access to Clean and Safe water in Adequate Quantities (%)", "target": "67", "pillar": "People Empowerment" },
+    { "indicator": "New Sealed roads in Rural Areas (kilometres)", "target": "500", "pillar": "People Empowerment" },
+    { "indicator": "Unemployment Rate (%)", "target": "3.8", "pillar": "People Empowerment" },
+    { "indicator": "Women Participation in Board directorship in Public and Private sector (%)", "target": "50", "pillar": "People Empowerment" },
+    { "indicator": "Access to clean and safe water in Adequate Quantities (% of total population)", "target": "88", "pillar": "People Empowerment" },
+    { "indicator": "Renewable Energy share in Electricity Generation (%)", "target": "100", "pillar": "People Empowerment" },
+    { "indicator": "Corruption Perception Index (PCI)", "target": "60", "pillar": "Good Governance" },
+    { "indicator": "Civil Servants (number)", "target": "25,000", "pillar": "Good Governance" }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "framework": "Sendai Framework for Disaster Risk Reduction",
+  "level": "global",
+  "period": "2015-2030",
+  "expected_outcome": {
+    "title": "The substantial reduction of disaster risk and losses in lives, livelihoods and health and in the economic, physical, social, cultural and environmental assets of persons, businesses, communities and countries.",
+    "summary": "Building on the Hyogo Framework for Action, this outcome aims for a substantial reduction of disaster risk and losses over 15 years, requiring strong political leadership and an enabling environment at all levels."
+  },
+  "goal": {
+    "title": "Prevent new and reduce existing disaster risk through the implementation of integrated and inclusive economic, structural, legal, social, health, cultural, educational, environmental, technological, political and institutional measures that prevent and reduce hazard exposure and vulnerability to disaster, increase preparedness for response and recovery, and thus strengthen resilience.",
+    "summary": "The goal is to prevent new and reduce existing disaster risk through inclusive and comprehensive measures across all dimensions of society, thereby strengthening resilience, with enhanced capacity for developing countries supported through international cooperation."
+  },
+  "guiding_principles": [
+    {
+      "principle": "(a)",
+      "summary": "Each State has the primary responsibility to prevent and reduce disaster risk, including through international, regional, subregional, transboundary and bilateral cooperation, with developing countries' efforts enhanced through sustainable international cooperation."
+    },
+    {
+      "principle": "(b)",
+      "summary": "Responsibilities for disaster risk reduction should be shared by central Governments and relevant national authorities, sectors and stakeholders, as appropriate to their national circumstances and governance systems."
+    },
+    {
+      "principle": "(c)",
+      "summary": "Managing disaster risk is aimed at protecting persons and their property, health, livelihoods and productive assets, as well as cultural and environmental assets, while promoting and protecting all human rights, including the right to development."
+    },
+    {
+      "principle": "(d)",
+      "summary": "Disaster risk reduction requires an all-of-society engagement and partnership, inclusive and non-discriminatory participation, with special attention to disproportionately affected people, and integration of gender, age, disability and cultural perspectives in all policies and practices."
+    },
+    {
+      "principle": "(e)",
+      "summary": "Disaster risk reduction and management depends on coordination mechanisms within and across sectors and with relevant stakeholders at all levels, requiring full engagement of all State institutions and clear articulation of responsibilities across public and private stakeholders."
+    },
+    {
+      "principle": "(f)",
+      "summary": "While national and federal State Governments retain the enabling, guiding and coordinating role, it is necessary to empower local authorities and communities to reduce disaster risk through resources, incentives and decision-making responsibilities."
+    },
+    {
+      "principle": "(g)",
+      "summary": "Disaster risk reduction requires a multi-hazard approach and inclusive risk-informed decision-making based on open exchange of disaggregated data and accessible, up-to-date, comprehensible, science-based risk information, complemented by traditional knowledge."
+    },
+    {
+      "principle": "(h)",
+      "summary": "Policies, plans, practices and mechanisms should aim at coherence across sustainable development, food security, health and safety, climate change, environmental management and disaster risk reduction agendas, as disaster risk reduction is essential to achieve sustainable development."
+    },
+    {
+      "principle": "(i)",
+      "summary": "While the drivers of disaster risk may be local, national, regional or global in scope, disaster risks have local and specific characteristics that must be understood for determining measures to reduce disaster risk."
+    },
+    {
+      "principle": "(j)",
+      "summary": "Addressing underlying disaster risk factors through risk-informed public and private investments is more cost-effective than primary reliance on post-disaster response and recovery, and contributes to sustainable development."
+    },
+    {
+      "principle": "(k)",
+      "summary": "In the post-disaster recovery, rehabilitation and reconstruction phase, it is critical to prevent the creation of new risk and reduce existing risk by 'Building Back Better' and increasing public education and awareness of disaster risk."
+    },
+    {
+      "principle": "(l)",
+      "summary": "An effective and meaningful global partnership and the further strengthening of international cooperation, including fulfilment of official development assistance commitments by developed countries, are essential for effective disaster risk management."
+    },
+    {
+      "principle": "(m)",
+      "summary": "Developing countries, particularly the least developed, small island developing States, landlocked developing countries and African countries, need adequate, sustainable and timely support from developed countries and partners tailored to their needs and priorities."
+    }
+  ],
+  "priorities_for_action": [
+    {
+      "priority": 1,
+      "title": "Understanding disaster risk",
+      "summary": "Policies and practices for disaster risk management should be based on an understanding of disaster risk in all its dimensions of vulnerability, capacity, exposure of persons and assets, hazard characteristics and the environment, to be used for pre-disaster risk assessment, prevention, mitigation and effective response.",
+      "national_and_local_levels": [
+        {
+          "item": "(a)",
+          "summary": "Promote the collection, analysis, management and use of relevant data and practical information and ensure its dissemination, taking into account the needs of different categories of users."
+        },
+        {
+          "item": "(b)",
+          "summary": "Encourage the use and strengthening of baselines and periodically assess disaster risks, vulnerability, capacity, exposure, hazard characteristics and their possible sequential effects on ecosystems at relevant scales."
+        },
+        {
+          "item": "(c)",
+          "summary": "Develop, periodically update and disseminate location-based disaster risk information including risk maps to decision makers, the general public and communities at risk using geospatial information technology."
+        },
+        {
+          "item": "(d)",
+          "summary": "Systematically evaluate, record, share and publicly account for disaster losses and understand the economic, social, health, education, environmental and cultural heritage impacts in the context of event-specific hazard-exposure and vulnerability information."
+        },
+        {
+          "item": "(e)",
+          "summary": "Make non-sensitive hazard-exposure, vulnerability, risk, disaster and loss-disaggregated information freely available and accessible."
+        },
+        {
+          "item": "(f)",
+          "summary": "Promote real-time access to reliable data, make use of space and in situ information including geographic information systems, and use ICT innovations to enhance measurement tools and data collection, analysis and dissemination."
+        },
+        {
+          "item": "(g)",
+          "summary": "Build knowledge of government officials, civil society, communities, volunteers and the private sector through sharing experiences, lessons learned, good practices, training and education on disaster risk reduction."
+        },
+        {
+          "item": "(h)",
+          "summary": "Promote and improve dialogue and cooperation among scientific and technological communities, other stakeholders and policymakers to facilitate a science-policy interface for effective decision-making in disaster risk management."
+        },
+        {
+          "item": "(i)",
+          "summary": "Ensure the use of traditional, indigenous and local knowledge and practices to complement scientific knowledge in disaster risk assessment and the development and implementation of policies and strategies."
+        },
+        {
+          "item": "(j)",
+          "summary": "Strengthen technical and scientific capacity to capitalize on and consolidate existing knowledge and to develop and apply methodologies and models to assess disaster risks, vulnerabilities and exposure to all hazards."
+        },
+        {
+          "item": "(k)",
+          "summary": "Promote investments in innovation and technology development in long-term, multi-hazard and solution-driven research in disaster risk management to address gaps, obstacles, interdependencies and challenges."
+        },
+        {
+          "item": "(l)",
+          "summary": "Promote the incorporation of disaster risk knowledge including prevention, mitigation, preparedness, response, recovery and rehabilitation in formal and non-formal education, civic education and professional education and training."
+        },
+        {
+          "item": "(m)",
+          "summary": "Promote national strategies to strengthen public education and awareness in disaster risk reduction through campaigns, social media and community mobilization, taking into account specific audiences and their needs."
+        },
+        {
+          "item": "(n)",
+          "summary": "Apply risk information in all its dimensions of vulnerability, capacity and exposure of persons, communities, countries and assets to develop and implement disaster risk reduction policies."
+        },
+        {
+          "item": "(o)",
+          "summary": "Enhance collaboration among people at the local level to disseminate disaster risk information through community-based organizations and non-governmental organizations."
+        }
+      ],
+      "global_and_regional_levels": [
+        {
+          "item": "(a)",
+          "summary": "Enhance development and dissemination of science-based methodologies and tools to record and share disaster losses and disaggregated data, and strengthen disaster risk modelling, assessment, mapping, monitoring and multi-hazard early warning systems."
+        },
+        {
+          "item": "(b)",
+          "summary": "Promote the conduct of comprehensive surveys on multi-hazard disaster risks and the development of regional disaster risk assessments and maps including climate change scenarios."
+        },
+        {
+          "item": "(c)",
+          "summary": "Promote and enhance through international cooperation access to and sharing and use of non-sensitive data, geospatial and space-based technologies; strengthen earth and climate observations; and utilize media and communication networks for disaster risk communication."
+        },
+        {
+          "item": "(d)",
+          "summary": "Promote common efforts in partnership with the scientific and technological community, academia and the private sector to establish, disseminate and share good practices internationally."
+        },
+        {
+          "item": "(e)",
+          "summary": "Support the development of local, national, regional and global user-friendly systems and services for the exchange of information on good practices, cost-effective technologies and lessons learned on disaster risk reduction."
+        },
+        {
+          "item": "(f)",
+          "summary": "Develop effective global and regional campaigns as instruments for public awareness and education, building on existing initiatives, to promote a culture of disaster prevention, resilience and responsible citizenship."
+        },
+        {
+          "item": "(g)",
+          "summary": "Enhance scientific and technical work on disaster risk reduction through coordination of existing networks and scientific research institutions, with support of the UNISDR Scientific and Technical Advisory Group, to strengthen the evidence-base for implementation."
+        },
+        {
+          "item": "(h)",
+          "summary": "Encourage the availability of copyrighted and patented materials, including through negotiated concessions."
+        },
+        {
+          "item": "(i)",
+          "summary": "Enhance access to and support for innovation and technology, as well as in long-term, multi-hazard and solution-driven research and development in the field of disaster risk management."
+        }
+      ]
+    },
+    {
+      "priority": 2,
+      "title": "Strengthening disaster risk governance to manage disaster risk",
+      "summary": "Disaster risk governance at national, regional and global levels is of great importance for effective and efficient management of disaster risk, requiring clear vision, plans, competence, guidance and coordination within and across sectors and participation of relevant stakeholders to foster collaboration across mechanisms and institutions.",
+      "national_and_local_levels": [
+        {
+          "item": "(a)",
+          "summary": "Mainstream and integrate disaster risk reduction within and across all sectors and promote coherence of national and local frameworks of laws, regulations and public policies that guide the public and private sectors in addressing disaster risk."
+        },
+        {
+          "item": "(b)",
+          "summary": "Adopt and implement national and local disaster risk reduction strategies and plans across different timescales, with targets, indicators and time frames, aimed at preventing the creation of risk, reducing existing risk and strengthening resilience."
+        },
+        {
+          "item": "(c)",
+          "summary": "Carry out an assessment of the technical, financial and administrative disaster risk management capacity to deal with identified risks at the local and national levels."
+        },
+        {
+          "item": "(d)",
+          "summary": "Encourage the establishment of mechanisms and incentives to ensure high levels of compliance with safety-enhancing provisions of sectoral laws and regulations, including land use, building codes, environmental management and health and safety standards."
+        },
+        {
+          "item": "(e)",
+          "summary": "Develop and strengthen mechanisms to follow up, periodically assess and publicly report on progress on national and local plans, and promote public scrutiny and institutional debates on progress reports."
+        },
+        {
+          "item": "(f)",
+          "summary": "Assign clear roles and tasks to community representatives within disaster risk management institutions and processes through legal frameworks, and undertake comprehensive public and community consultations during development of such laws and regulations."
+        },
+        {
+          "item": "(g)",
+          "summary": "Establish and strengthen government coordination forums composed of relevant stakeholders at national and local levels, such as national and local platforms for disaster risk reduction, with a designated national focal point for implementing the Sendai Framework."
+        },
+        {
+          "item": "(h)",
+          "summary": "Empower local authorities through regulatory and financial means to work and coordinate with civil society, communities, indigenous peoples and migrants in disaster risk management at the local level."
+        },
+        {
+          "item": "(i)",
+          "summary": "Encourage parliamentarians to support the implementation of disaster risk reduction by developing new or amending relevant legislation and setting budget allocations."
+        },
+        {
+          "item": "(j)",
+          "summary": "Promote the development of quality standards, such as certifications and awards for disaster risk management, with the participation of the private sector, civil society, professional associations, scientific organizations and UN."
+        },
+        {
+          "item": "(k)",
+          "summary": "Formulate public policies aimed at addressing the issues of prevention or relocation, where possible, of human settlements in disaster risk-prone zones, subject to national law."
+        }
+      ],
+      "global_and_regional_levels": [
+        {
+          "item": "(a)",
+          "summary": "Guide action at the regional level through agreed regional and subregional strategies and mechanisms for cooperation for disaster risk reduction to foster efficient planning, create common information systems and exchange good practices, particularly for common and transboundary disaster risks."
+        },
+        {
+          "item": "(b)",
+          "summary": "Foster collaboration across global and regional mechanisms and institutions for the implementation and coherence of instruments relevant to disaster risk reduction, such as for climate change, biodiversity, sustainable development, poverty eradication, environment, agriculture and health."
+        },
+        {
+          "item": "(c)",
+          "summary": "Actively engage in the Global Platform for Disaster Risk Reduction, regional and subregional platforms and thematic platforms to forge partnerships, periodically assess progress and share practice and knowledge on disaster risk-informed policies, programmes and investments."
+        },
+        {
+          "item": "(d)",
+          "summary": "Promote transboundary cooperation to enable policy and planning for the implementation of ecosystem-based approaches with regard to shared resources, such as within river basins and along coastlines, to build resilience and reduce disaster risk including epidemic and displacement risk."
+        },
+        {
+          "item": "(e)",
+          "summary": "Promote mutual learning and exchange of good practices and information through voluntary and self-initiated peer reviews among interested States."
+        },
+        {
+          "item": "(f)",
+          "summary": "Promote the strengthening of international voluntary mechanisms for monitoring and assessment of disaster risks, including relevant data and information, benefiting from the experience of the Hyogo Framework for Action Monitor."
+        }
+      ]
+    },
+    {
+      "priority": 3,
+      "title": "Investing in disaster risk reduction for resilience",
+      "summary": "Public and private investment in disaster risk prevention and reduction through structural and non-structural measures are essential to enhance the economic, social, health and cultural resilience of persons, communities, countries and their assets as well as the environment, serving as drivers of innovation, growth and job creation while being cost-effective and instrumental to save lives.",
+      "national_and_local_levels": [
+        {
+          "item": "(a)",
+          "summary": "Allocate the necessary resources including finance and logistics at all levels of administration for the development and implementation of disaster risk reduction strategies, policies, plans, laws and regulations in all relevant sectors."
+        },
+        {
+          "item": "(b)",
+          "summary": "Promote mechanisms for disaster risk transfer and insurance, risk-sharing and retention and financial protection for both public and private investment to reduce the financial impact of disasters on Governments and societies in urban and rural areas."
+        },
+        {
+          "item": "(c)",
+          "summary": "Strengthen disaster-resilient public and private investments through structural, non-structural and functional risk prevention and reduction measures in critical facilities, especially schools and hospitals; building better from the start to withstand hazards through proper design and construction."
+        },
+        {
+          "item": "(d)",
+          "summary": "Protect or support the protection of cultural and collecting institutions and other sites of historical, cultural heritage and religious interest."
+        },
+        {
+          "item": "(e)",
+          "summary": "Promote the disaster risk resilience of workplaces through structural and non-structural measures."
+        },
+        {
+          "item": "(f)",
+          "summary": "Promote the mainstreaming of disaster risk assessments into land-use policy development and implementation including urban planning, land degradation assessments and informal and non-permanent housing, using guidelines informed by anticipated demographic and environmental changes."
+        },
+        {
+          "item": "(g)",
+          "summary": "Promote the mainstreaming of disaster risk assessment, mapping and management into rural development planning and management of mountains, rivers, coastal flood plain areas, drylands, wetlands and all other areas prone to droughts and flooding."
+        },
+        {
+          "item": "(h)",
+          "summary": "Encourage the revision or development of new building codes, standards and rehabilitation and reconstruction practices at national or local levels, particularly in informal and marginal human settlements, and reinforce capacity to implement and enforce such codes."
+        },
+        {
+          "item": "(i)",
+          "summary": "Enhance the resilience of national health systems by integrating disaster risk management into all levels of health care, developing capacity of health workers in disaster risk reduction, promoting training in disaster medicine, and implementing the International Health Regulations (2005)."
+        },
+        {
+          "item": "(j)",
+          "summary": "Strengthen the design and implementation of inclusive policies and social safety-net mechanisms, integrated with livelihood enhancement programmes and access to basic health-care services, to empower and assist people disproportionately affected by disasters."
+        },
+        {
+          "item": "(k)",
+          "summary": "People with life-threatening and chronic disease should be included in the design of policies and plans to manage their risks before, during and after disasters, including having access to life-saving services."
+        },
+        {
+          "item": "(l)",
+          "summary": "Encourage the adoption of policies and programmes addressing disaster-induced human mobility to strengthen the resilience of affected people and that of host communities."
+        },
+        {
+          "item": "(m)",
+          "summary": "Promote the integration of disaster risk reduction considerations and measures in financial and fiscal instruments."
+        },
+        {
+          "item": "(n)",
+          "summary": "Strengthen the sustainable use and management of ecosystems and implement integrated environmental and natural resource management approaches that incorporate disaster risk reduction."
+        },
+        {
+          "item": "(o)",
+          "summary": "Increase business resilience and protection of livelihoods and productive assets throughout supply chains, ensure continuity of services and integrate disaster risk management into business models and practices."
+        },
+        {
+          "item": "(p)",
+          "summary": "Strengthen the protection of livelihoods and productive assets, including livestock, working animals, tools and seeds."
+        },
+        {
+          "item": "(q)",
+          "summary": "Promote and integrate disaster risk management approaches throughout the tourism industry, given the often heavy reliance on tourism as a key economic driver."
+        }
+      ],
+      "global_and_regional_levels": [
+        {
+          "item": "(a)",
+          "summary": "Promote coherence across systems, sectors and organizations related to sustainable development and to disaster risk reduction in their policies, plans, programmes and processes."
+        },
+        {
+          "item": "(b)",
+          "summary": "Promote the development and strengthening of disaster risk transfer and sharing mechanisms and instruments in close cooperation with partners in the international community, business, international financial institutions and other relevant stakeholders."
+        },
+        {
+          "item": "(c)",
+          "summary": "Promote cooperation between academic, scientific and research entities and networks and the private sector to develop new products and services to help reduce disaster risk, particularly those that assist developing countries."
+        },
+        {
+          "item": "(d)",
+          "summary": "Encourage the coordination between global and regional financial institutions with a view to assessing and anticipating the potential economic and social impacts of disasters."
+        },
+        {
+          "item": "(e)",
+          "summary": "Enhance cooperation between health authorities and other relevant stakeholders to strengthen country capacity for disaster risk management for health, implementation of the International Health Regulations (2005) and building resilient health systems."
+        },
+        {
+          "item": "(f)",
+          "summary": "Strengthen and promote collaboration and capacity-building for the protection of productive assets, including livestock, working animals, tools and seeds."
+        },
+        {
+          "item": "(g)",
+          "summary": "Promote and support the development of social safety nets as disaster risk reduction measures linked to and integrated with livelihood enhancement programmes to ensure resilience to shocks at household and community levels."
+        },
+        {
+          "item": "(h)",
+          "summary": "Strengthen and broaden international efforts aimed at eradicating hunger and poverty through disaster risk reduction."
+        },
+        {
+          "item": "(i)",
+          "summary": "Promote and support collaboration among relevant public and private stakeholders to enhance the resilience of business to disasters."
+        }
+      ]
+    },
+    {
+      "priority": 4,
+      "title": "Enhancing disaster preparedness for effective response and to 'Build Back Better' in recovery, rehabilitation and reconstruction",
+      "summary": "The steady growth of disaster risk indicates the need to further strengthen disaster preparedness for response, take action in anticipation of events, and ensure capacities are in place for effective response and recovery, with women and persons with disabilities empowered to lead and promote equitable and accessible approaches, and recovery phases leveraged to 'Build Back Better' by integrating disaster risk reduction into development.",
+      "national_and_local_levels": [
+        {
+          "item": "(a)",
+          "summary": "Prepare or review and periodically update disaster preparedness and contingency policies, plans and programmes with the involvement of relevant institutions, considering climate change scenarios and facilitating participation of all sectors and stakeholders."
+        },
+        {
+          "item": "(b)",
+          "summary": "Invest in, develop, maintain and strengthen people-centred multi-hazard, multisectoral forecasting and early warning systems, disaster risk and emergency communications mechanisms, social technologies and hazard-monitoring telecommunications systems tailored to users' needs including gender requirements."
+        },
+        {
+          "item": "(c)",
+          "summary": "Promote the resilience of new and existing critical infrastructure including water, transportation and telecommunications infrastructure, educational facilities, hospitals and other health facilities to ensure they remain safe, effective and operational during and after disasters."
+        },
+        {
+          "item": "(d)",
+          "summary": "Establish community centres for the promotion of public awareness and the stockpiling of necessary materials to implement rescue and relief activities."
+        },
+        {
+          "item": "(e)",
+          "summary": "Adopt public policies and actions that support the role of public service workers to establish or strengthen coordination and funding mechanisms and procedures for relief assistance and plan and prepare for post-disaster recovery and reconstruction."
+        },
+        {
+          "item": "(f)",
+          "summary": "Train the existing workforce and voluntary workers in disaster response and strengthen technical and logistical capacities to ensure better response in emergencies."
+        },
+        {
+          "item": "(g)",
+          "summary": "Ensure the continuity of operations and planning, including social and economic recovery, and the provision of basic services in the post-disaster phase."
+        },
+        {
+          "item": "(h)",
+          "summary": "Promote regular disaster preparedness, response and recovery exercises including evacuation drills, training and the establishment of area-based support systems for rapid and effective response to disasters and related displacement."
+        },
+        {
+          "item": "(i)",
+          "summary": "Promote the cooperation of diverse institutions, multiple authorities and related stakeholders at all levels, including affected communities and business, in view of the complex and costly nature of post-disaster reconstruction under national coordination."
+        },
+        {
+          "item": "(j)",
+          "summary": "Promote the incorporation of disaster risk management into post-disaster recovery and rehabilitation processes, facilitate the link between relief, rehabilitation and development, and use recovery opportunities to develop capacities that reduce disaster risk in the short, medium and long term."
+        },
+        {
+          "item": "(k)",
+          "summary": "Develop guidance for preparedness for disaster reconstruction, such as on land-use planning and structural standards improvement, by learning from recovery and reconstruction programmes and exchanging experiences, knowledge and lessons learned."
+        },
+        {
+          "item": "(l)",
+          "summary": "Consider the relocation of public facilities and infrastructures to areas outside the risk range, wherever possible, in the post-disaster reconstruction process, in consultation with the people concerned."
+        },
+        {
+          "item": "(m)",
+          "summary": "Strengthen the capacity of local authorities to evacuate persons living in disaster-prone areas."
+        },
+        {
+          "item": "(n)",
+          "summary": "Establish a mechanism of case registry and a database of mortality caused by disaster in order to improve the prevention of morbidity and mortality."
+        },
+        {
+          "item": "(o)",
+          "summary": "Enhance recovery schemes to provide psychosocial support and mental health services for all people in need."
+        },
+        {
+          "item": "(p)",
+          "summary": "Review and strengthen national laws and procedures on international cooperation, based on the Guidelines for the Domestic Facilitation and Regulation of International Disaster Relief and Initial Recovery Assistance."
+        }
+      ],
+      "global_and_regional_levels": [
+        {
+          "item": "(a)",
+          "summary": "Develop and strengthen coordinated regional approaches and operational mechanisms to prepare for and ensure rapid and effective disaster response in situations that exceed national coping capacities."
+        },
+        {
+          "item": "(b)",
+          "summary": "Promote the further development and dissemination of instruments such as standards, codes, operational guides and other guidance instruments to support coordinated action in disaster preparedness and response and facilitate information sharing on lessons learned and best practices."
+        },
+        {
+          "item": "(c)",
+          "summary": "Promote the further development of and investment in effective, nationally compatible, regional multi-hazard early warning mechanisms in line with the Global Framework for Climate Services, and facilitate the sharing and exchange of information across all countries."
+        },
+        {
+          "item": "(d)",
+          "summary": "Enhance international mechanisms such as the International Recovery Platform for the sharing of experience and learning among countries and all relevant stakeholders."
+        },
+        {
+          "item": "(e)",
+          "summary": "Support the efforts of relevant UN entities to strengthen and implement global mechanisms on hydrometeorological issues to raise awareness and improve understanding of water-related disaster risks and their impact on society."
+        },
+        {
+          "item": "(f)",
+          "summary": "Support regional cooperation to deal with disaster preparedness, including through common exercises and drills."
+        },
+        {
+          "item": "(g)",
+          "summary": "Promote regional protocols to facilitate the sharing of response capacities and resources during and after disasters."
+        },
+        {
+          "item": "(h)",
+          "summary": "Train the existing workforce and volunteers in disaster response."
+        }
+      ]
+    }
+  ],
+  "global_targets": [
+    {
+      "target": "(a)",
+      "description": "Substantially reduce global disaster mortality by 2030, aiming to lower the average per 100,000 global mortality rate in the decade 2020-2030 compared to the period 2005-2015.",
+      "summary": "Substantially reduce disaster-induced mortality globally by 2030, targeting a lower per 100,000 average mortality rate in the 2020-2030 decade relative to 2005-2015."
+    },
+    {
+      "target": "(b)",
+      "description": "Substantially reduce the number of affected people globally by 2030, aiming to lower the average global figure per 100,000 in the decade 2020-2030 compared to the period 2005-2015.",
+      "summary": "Substantially reduce the total number of people affected by disasters globally by 2030, targeting a lower per 100,000 average in the 2020-2030 decade relative to 2005-2015."
+    },
+    {
+      "target": "(c)",
+      "description": "Reduce direct disaster economic loss in relation to global gross domestic product (GDP) by 2030.",
+      "summary": "Reduce the direct economic losses caused by disasters as a share of global gross domestic product by 2030."
+    },
+    {
+      "target": "(d)",
+      "description": "Substantially reduce disaster damage to critical infrastructure and disruption of basic services, among them health and educational facilities, including through developing their resilience by 2030.",
+      "summary": "Substantially reduce damage to critical infrastructure and disruption of basic services from disasters by 2030, especially for health and educational facilities, by strengthening their resilience."
+    },
+    {
+      "target": "(e)",
+      "description": "Substantially increase the number of countries with national and local disaster risk reduction strategies by 2020.",
+      "summary": "Substantially increase the number of countries that have adopted both national and local disaster risk reduction strategies by 2020."
+    },
+    {
+      "target": "(f)",
+      "description": "Substantially enhance international cooperation to developing countries through adequate and sustainable support to complement their national actions for implementation of the present Framework by 2030.",
+      "summary": "Substantially enhance international cooperation for developing countries through adequate and sustainable support to complement national actions for implementing the Sendai Framework by 2030."
+    },
+    {
+      "target": "(g)",
+      "description": "Substantially increase the availability of and access to multi-hazard early warning systems and disaster risk information and assessments to people by 2030.",
+      "summary": "Substantially increase the availability of and access to multi-hazard early warning systems and disaster risk information and assessments for people worldwide by 2030."
+    }
+  ]
+}

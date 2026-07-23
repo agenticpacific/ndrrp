@@ -1,0 +1,253 @@
+{
+  "framework": "Framework for Resilient Development in the Pacific",
+  "level": "regional",
+  "period": "2017-2030",
+  "vision": {
+    "title": "Our Vision",
+    "summary": "Pacific people, societies, economies, cultures and natural environments are resilient to changing conditions and extreme events from climate change, climate variability and geological processes, enhancing well-being and promoting sustainable development."
+  },
+  "purpose": {
+    "title": "Purpose",
+    "summary": "The FRDP guides all stakeholders' actions to strengthen resilience by providing coordinated priorities for implementation at regional, national and community levels; a regional approach to address national priorities; awareness of vulnerability and resilience issues; a framework for support (finance, technology, capacity-building); partnership and collaboration mechanisms; and a framework for monitoring progress. It also contributes to implementing commitments under the SDGs, Sendai Framework, SAMOA Pathway, UNFCCC and the Paris Agreement."
+  },
+  "guiding_principles": [
+    {
+      "principle": "Integrate climate change and disaster risk management and mainstream into development planning",
+      "summary": "Climate change and disaster risk management should be integrated where possible and mainstreamed into development planning, policy making, financing, programming and implementation to build resilience."
+    },
+    {
+      "principle": "Strengthen and develop partnerships across countries and territories",
+      "summary": "Partnerships and sharing of lessons learned and best practices should be strengthened across countries and territories, without compromising sovereignty and related considerations."
+    },
+    {
+      "principle": "Protect human rights",
+      "summary": "Human rights such as the right to life, safety, dignity, non-discrimination and access to basic necessities must be protected, ensuring every person has equitable access to humanitarian and development assistance according to their specific needs."
+    },
+    {
+      "principle": "Prioritise the needs and respect the rights of the most vulnerable and integrate gender considerations",
+      "summary": "The needs of the most vulnerable (including women, persons with disabilities, children, youth and older persons) must be prioritised, their rights respected, and their effective participation facilitated. Gender considerations should be integrated with equitable participation of men and women in planning and implementation."
+    },
+    {
+      "principle": "Ensure resilient development is sustainable and aims to alleviate poverty and hardship",
+      "summary": "Resilient development must be sustainable and contribute to alleviating poverty and hardship."
+    },
+    {
+      "principle": "Incorporate ecosystem-based services and functions in resilience building",
+      "summary": "Ecosystem-based services and functions should be incorporated into all resilience-building efforts."
+    },
+    {
+      "principle": "Advocate open and ready access to reliable sources of traditional and contemporary information",
+      "summary": "Open and ready access to reliable traditional and contemporary information sources should be advocated."
+    },
+    {
+      "principle": "Build on and reinforce cultural and traditional resilience and knowledge of communities",
+      "summary": "Cultural and traditional resilience and knowledge of communities should be built upon and reinforced, engaging communities as key actors in designing plans, activities and solutions relevant to them."
+    },
+    {
+      "principle": "Acknowledge and factor traditional worldview where spirituality plays an integral role",
+      "summary": "Traditional worldview where spirituality plays an integral role in constructing a meaningful life and pro-active existence should be acknowledged and factored into resilience-building."
+    }
+  ],
+  "goals": [
+    {
+      "goal": 1,
+      "title": "Strengthened Integrated Adaptation and Risk Reduction to Enhance Resilience to Climate Change and Disasters",
+      "context_and_challenges": {
+        "summary": "Pacific Island countries and territories (PICTs) are among the most vulnerable in the world to climate change and disasters. While exposure levels are similar, vulnerability differs due to specific environmental, social and economic challenges that limit capacity. Since 1950, extreme events have affected approximately 9.2 million people in the Pacific with 9,811 deaths and USD 3.2 billion in damages; some PICTs have experienced natural disaster losses approaching or exceeding GDP. Low-intensity events generate cumulative losses equivalent to or exceeding those of single large disasters. Resilient development must extend beyond worsening extreme events and climate change impacts to address the underlying causes of vulnerability. PICTs need support to engage with the Warsaw International Mechanism for Loss and Damage."
+      },
+      "strategic_objective": {
+        "summary": "Present and future disaster risk and climate change are successfully managed, in an integrated manner where possible, within social and economic development planning processes and practices, to build resilience."
+      },
+      "outcome": {
+        "summary": "Stronger and more resilient communities where efficiencies are achieved by pursuing a more integrated approach to climate change adaptation and disaster risk reduction."
+      },
+      "priority_actions": {
+        "national_and_subnational_governments": [
+          { "action": "(a)", "summary": "Build capacity to develop fundable projects appropriate for the access criteria of the Green Climate Fund, Adaptation Fund, and Global Environment Facility." },
+          { "action": "(b)", "summary": "Embed climate change and disaster resilience-building initiatives, using integrated approaches where possible, within national and subnational sustainable development strategies, social development plans, sector plans, practices and resource mobilisation." },
+          { "action": "(c)", "summary": "Strengthen capacity through UNFCCC Paris Agreement technical and financial support to develop National Adaptation Plans and Adaptation Communications." },
+          { "action": "(d)", "summary": "Ensure finance and planning institutions play a central role in strategic, whole-of-country approaches for climate and disaster resilient development, pursuing all opportunities for financial and technical support, climate financing and insurance with regional agency support." },
+          { "action": "(e)", "summary": "Ensure annual and medium-term budgets include climate change and disaster resilient policy and investments, with capacity to track sources of revenue and expenditures." },
+          { "action": "(f)", "summary": "Strengthen capacities at all levels of government, administration and community through inclusive gender analysis, responsive decision-making systems and human rights-based approaches to ensure effective delivery of development initiatives." },
+          { "action": "(g)", "summary": "Develop and implement, through inclusive multi-sectoral and multi-stakeholder mechanisms, concrete actions on the ground to ensure climate change and disaster resilience in all development sectors." },
+          { "action": "(h)", "summary": "Encourage inclusive and decentralised planning where appropriate, and decision-making systems to strengthen capacity for climate change and disaster risk management at local and community levels." },
+          { "action": "(i)", "summary": "Draw on existing civil society capacity and assist in further developing it to represent and involve vulnerable groups as participants in climate and disaster risk management fora and in programme implementation, with effective risk management communication and partnership with communities." },
+          { "action": "(j)", "summary": "Strengthen the capacity of national institutions such as meteorological, hydrological and seismological services to develop and provide access to hazard and risk information including multi-hazard early warning systems, and to monitor and provide timely and effective warning services to the public." },
+          { "action": "(k)", "summary": "Provide incentives and technical support to the private sector to reduce their climate and disaster risk and to work collaboratively with governments, communities and partners including through public-private partnerships." },
+          { "action": "(l)", "summary": "Collect, use, share and manage accurate data and information in user-friendly formats to inform sound risk reduction decision-making in relation to disaster damage and loss as well as loss and damage under the UNFCCC Paris Agreement." },
+          { "action": "(m)", "summary": "Conduct regular monitoring and evaluation at national and subnational levels, with results transparent and open to the public to the extent possible." },
+          { "action": "(n)", "summary": "Strengthen and promote the enforcement of appropriate national building codes and infrastructure design on critical facilities and public assets." },
+          { "action": "(o)", "summary": "Provide an enabling environment for effective partnership with the private sector, civil society and other stakeholders to build resilience." },
+          { "action": "(p)", "summary": "Integrate human mobility aspects where appropriate, including strengthening capacity to protect individuals and communities vulnerable to climate change and disaster displacement and migration through targeted national policies and actions including relocation and labour migration policies." },
+          { "action": "(q)", "summary": "Strengthen knowledge on the causes, local impacts and responses to climate change, hazards and disasters, and build capacity for local adaptation and other risk management measures through formal and non-formal education systems including for loss and damage." },
+          { "action": "(r)", "summary": "Improve understanding and applications of successful resilience strategies by documenting traditional, contemporary and scientific knowledge and lessons learned, and develop appropriate awareness, communication, education and information materials for communities, media, schools, training providers and universities." },
+          { "action": "(s)", "summary": "Develop and strengthen national and territory disaster risk management platforms and national climate forums or equivalent mechanisms." }
+        ],
+        "civil_society_and_communities": [
+          { "action": "(a)", "summary": "Strengthen the capacity and raise awareness of civil society organisations to work effectively with communities, building on their comparative advantages, in line with government-led approaches to strengthening resilience." },
+          { "action": "(b)", "summary": "Strengthen community-led development initiatives by using relevant information and tools to select and inform appropriate cost-effective resilient development interventions that are gender responsive and inclusive." },
+          { "action": "(c)", "summary": "Ensure that programmes and capacity building at local level are aligned to national development planning and financing, including through the establishment of effective coordinating mechanisms." },
+          { "action": "(d)", "summary": "Encourage civil society organisations and communities to utilise a human rights perspective and to use appropriate methods that ensure inclusive participation of vulnerable groups to address their specific needs." },
+          { "action": "(e)", "summary": "Empower vulnerable groups to participate in climate change and disaster risk management fora and in the implementation of programmes on the ground, with effective risk management communication and action in partnership with communities." },
+          { "action": "(f)", "summary": "Strengthen linkages with the private and public sectors, including creating space for collaboration with these sectors." },
+          { "action": "(g)", "summary": "Encourage a spiritual, theological and cultural inclusive approach that underpins personal and community participation in strengthening risk management." },
+          { "action": "(h)", "summary": "Capitalise on the comparative advantage of media organisations in advocacy and awareness campaigns, noting the need for more evidence-based advocacy on risk management, related measures and climate change financing." },
+          { "action": "(i)", "summary": "Build capacity of women and men to effectively participate in development of national and regional policies and agreements on new and emerging issues such as geo-engineering and forced migration." }
+        ],
+        "private_sector": [
+          { "action": "(a)", "summary": "Encourage the use of risk information from governments, administrations and other stakeholders as a basis for investment decisions." },
+          { "action": "(b)", "summary": "Incorporate integrated risk management into corporate social responsibilities." },
+          { "action": "(c)", "summary": "Develop and implement risk management strategies that include business continuity plans, including insurance, to support quick recovery of small producers, businesses and merchants in local markets." },
+          { "action": "(d)", "summary": "Develop innovative products and services to reduce disaster and climate change risks, costs and impacts, and build resilience at all levels of the economy and society including infrastructure and housing." },
+          { "action": "(e)", "summary": "Engage in private-public partnerships to advance integrated approaches to investment decisions and practices, using innovative products and services." },
+          { "action": "(f)", "summary": "Encourage regional organisations to strengthen private sector engagement with government and other stakeholders to develop and communicate targeted tips for building resilience and other relevant guidance and information." },
+          { "action": "(g)", "summary": "Contribute to national and regional initiatives aimed at developing capabilities to identify and manage new and emerging issues and initiatives such as geo-engineering, carbon taxes, and forced migration." }
+        ],
+        "regional_organizations_and_development_partners": [
+          { "action": "(a)", "summary": "Undertake joint planning where appropriate, programming and design of initiatives ensuring they are responsive to specific PICT needs, priorities and capacities, focusing on resilience-building." },
+          { "action": "(b)", "summary": "Incorporate considerations for building resilience to climate change and disasters in all relevant strategies, frameworks and related plans." },
+          { "action": "(c)", "summary": "Facilitate and support technical and financial capacity development for building resilience." },
+          { "action": "(d)", "summary": "Assist in the tracking of international financial commitments and allocation, to assess compliance with international obligations for climate change and disaster risk management." },
+          { "action": "(e)", "summary": "Build the capacity of PICs to comply with their obligations as agreed to under the UNFCCC Paris Agreement on Climate Change." },
+          { "action": "(f)", "summary": "Facilitate and support training for development of gender-responsive and inclusive disaster risk management and climate change adaptation strategies at regional and national levels." },
+          { "action": "(g)", "summary": "Apply an integrated risk management approach to development assistance." },
+          { "action": "(h)", "summary": "Support and sustain existing regional mechanisms such as the Rapid Response Funds - Regional Technical Support Mechanism (RFF-RTSM) to rapidly deploy technical assistance to PICs for climate change and disaster risk management." },
+          { "action": "(i)", "summary": "Establish a regional facility to assist governments in disaster and climate change risk financing, including insurance, in national sustainable development strategies and processes, and support their access to international financing and support." },
+          { "action": "(j)", "summary": "Provide ongoing support to improve the linkage between planning, public financial management and expenditure systems to improve the capacity of national and local governments to directly access and manage climate change and disaster funds." },
+          { "action": "(k)", "summary": "Develop a clear strategy on how to assist PICs to access climate change and disaster risk management financing mechanisms." },
+          { "action": "(l)", "summary": "Support PICs to build capacity to develop fundable projects appropriate for the access criteria of the Green Climate Fund, Adaptation Fund, and Global Environment Facility." },
+          { "action": "(m)", "summary": "Investigate and develop regional insurance facilities for climate change where feasible." },
+          { "action": "(n)", "summary": "Work in close collaboration with member countries and other stakeholders to develop and deliver relevant capacity-building programmes, including emerging priorities such as loss and damage as a result of climate change." },
+          { "action": "(o)", "summary": "Support appropriate national programmes and develop guidelines for PICs relating to access to loss and damage as well as establishment of baseline indicators and capabilities needed for monitoring." },
+          { "action": "(p)", "summary": "Collaborate to ensure that the relevant monitoring frameworks, including those for the Sendai Framework, the Sustainable Development Agenda and the UNFCCC Paris Agreement, are streamlined to reduce national reporting burden." },
+          { "action": "(q)", "summary": "Strengthen effective use of science, technology and knowledge management, including analysis tools for risk assessment, to understand underlying drivers and to inform disaster risk reduction, climate change adaptation and loss and damage, and support new technologies and innovative solutions." },
+          { "action": "(r)", "summary": "Support and facilitate advocacy for building resilience to climate change and disasters, as well as collective negotiation positions where appropriate at UNFCCC COPs and other relevant global negotiations, helping ensure the Pacific region maintains a strong voice in international fora." },
+          { "action": "(s)", "summary": "Assist the development and resourcing of national and regional capability for identifying and prioritising emerging issues related to climate change and natural and other hazards, covering ecological, social and economic consequences." },
+          { "action": "(t)", "summary": "Support the protection of individuals and communities most vulnerable to climate change displacement and migration through targeted national and regional policies and regional labour migration schemes where appropriate." },
+          { "action": "(u)", "summary": "Conduct studies and support the development of appropriate national strategies on relocation due to climate change and disaster impacts." },
+          { "action": "(v)", "summary": "Provide support to the private sector to reduce risks of disasters and climate change through activities such as risk assessment, resilience planning and business continuity management." }
+        ]
+      }
+    },
+    {
+      "goal": 2,
+      "title": "Low Carbon Development",
+      "context_and_challenges": {
+        "summary": "The Pacific Islands region contributes only 0.03 per cent of the world's total greenhouse gas emissions yet is among the most vulnerable to its effects. Important synergies exist between low carbon development and resilience building. PICTs are minimising emissions through commitments reflected in the Majuro Declaration, the Framework for Action on Energy Security in the Pacific, and NDCs. Oil is the main energy source meeting over two-thirds of energy demand, and petroleum price increases have cost most PICTs about 10% of gross national incomes. Total energy supply grew at 4.6% per year from 1990-2010 with carbon dioxide emissions growing by 3.9%. The greatest opportunities for reducing emissions are in electricity generation, transport and industrial sectors, with energy efficiency being most cost-effective."
+      },
+      "strategic_objective": {
+        "summary": "More efficient end-use energy consumption, reduced carbon intensity of development processes, increased conservation of terrestrial and marine ecosystems and increased resilience of energy infrastructure in PICTs."
+      },
+      "outcome": {
+        "summary": "Improved energy security, decreased net emissions of greenhouse gases, and enhanced resilience of energy infrastructure."
+      },
+      "priority_actions": {
+        "national_and_subnational_governments": [
+          { "action": "(a)", "summary": "Design, locate, operate and maintain energy infrastructure in ways that minimise hazard risks as well as weather extremes and climate change, including the principle of building back better." },
+          { "action": "(b)", "summary": "Utilise opportunities under the UNFCCC by officially registering Nationally Appropriate Mitigation Actions and REDD+ initiatives to gain international recognition and opportunities for securing financial, technical and capacity-building support." },
+          { "action": "(c)", "summary": "Seek technical and financial support to develop and implement NDC targets and long-term low carbon development strategies." },
+          { "action": "(d)", "summary": "Develop and enforce efficient and effective legislation and regulations covering forests, coastal management, ecosystem services, energy efficiency codes for public buildings, energy efficiency standards for imported electrical goods and metering of energy use in households." },
+          { "action": "(e)", "summary": "Introduce and strengthen environmentally friendly national and sector policies that promote efficient and cost-effective production and end-use of all forms of energy, with an increasing focus on using energy from local sources." },
+          { "action": "(f)", "summary": "Increase transparent and effective public expenditure on measures to improve coastal and forest management, including mangroves." },
+          { "action": "(g)", "summary": "Establish programmes to support private investment in low carbon development." },
+          { "action": "(h)", "summary": "Increase transparency of subsidies on fossil fuels with the proposed ultimate aim of phasing out inefficient subsidies, and actively promote through communication and awareness campaigns incentives and mechanisms for low carbon development." },
+          { "action": "(i)", "summary": "Conserve and sustainably manage forests, coasts, oceans and other natural ecosystems to maintain and enhance carbon uptake and stocks in terrestrial and marine ecosystems; for relevant PICTs, identify and manage drivers of deforestation and coastal and forest degradation; ensure results are measured, reported, verified and incentivised." },
+          { "action": "(j)", "summary": "Foster a supportive policy and institutional environment for the development of public-private partnerships to support the development of independent power providers and community-based projects." },
+          { "action": "(k)", "summary": "Encourage, incentivise and assist all stakeholders to improve waste management programmes and procedures in order to reduce greenhouse gas emissions from landfills and dumps, including through reduction, recycling, reuse and environmentally sound disposal methods." },
+          { "action": "(l)", "summary": "Ensure, through lobbying and negotiations at regional and international levels, the dedication of all countries to reduce their net emissions of greenhouse gases." }
+        ],
+        "civil_society_and_communities": [
+          { "action": "(a)", "summary": "Work with partners to ensure that civil society organisations and community groups have the capacity, including knowledge and skills, to provide leadership in achieving low carbon development, including through the increased use of renewable energy." },
+          { "action": "(b)", "summary": "Lead and contribute to awareness campaigns and capacity building in schools and communities, to promote and facilitate energy and ecosystem conservation and the increased use of renewable energy, through changes in attitudes and behaviour." },
+          { "action": "(c)", "summary": "Work with stakeholders to ensure that low carbon development is achieved, taking into account the needs of all people including vulnerable groups." },
+          { "action": "(d)", "summary": "Work with local engineering associations to promote better training and support for efficient use of equipment and commitment to maintaining mechanical equipment." },
+          { "action": "(e)", "summary": "Encourage a spiritually, theologically and culturally inclusive approach for promoting and undertaking low carbon development." },
+          { "action": "(f)", "summary": "Empower civil society and communities to participate in regional and international advocacy campaigns to reduce greenhouse gas emissions globally." }
+        ],
+        "private_sector": [
+          { "action": "(a)", "summary": "Support and promote the efforts of governments to ensure that energy infrastructure is designed, located, operated and maintained in ways that minimise hazard risks, as well as the adverse consequences of weather extremes and climate change." },
+          { "action": "(b)", "summary": "Work with other stakeholders to lead progress on low carbon development, including research and development for innovative solutions for low carbon development." },
+          { "action": "(c)", "summary": "Work with relevant partners to ensure that the design of proposed investments in the energy sector (whether grant, loan or internally financed) includes assessments of economic and financial viability, and social and environmental implications." },
+          { "action": "(d)", "summary": "Support the development of local and regional enterprises providing energy technologies and services." },
+          { "action": "(e)", "summary": "Develop, update and apply technical standards for energy technologies to promote energy efficiency, while ensuring that the needs of small-scale businesses are addressed, including those active in the informal sector." },
+          { "action": "(f)", "summary": "Ensure cooperation with relevant national agencies to promote the development and review of appropriate energy policies and plans." },
+          { "action": "(g)", "summary": "Work with relevant government departments and agencies and with other stakeholders to improve the availability of timely and accurate data and information for effective low carbon investments." }
+        ],
+        "regional_organizations_and_development_partners": [
+          { "action": "(a)", "summary": "Implement policies and practices within regional organisations to reduce carbon footprints." },
+          { "action": "(b)", "summary": "Facilitate adequate and timely financial and other support to achieve low carbon and resilient development goals including appropriate policy-making and economic modelling." },
+          { "action": "(c)", "summary": "Facilitate technical and financial support to PICs to carry out their obligations under the UNFCCC Paris Agreement on Climate Change." },
+          { "action": "(d)", "summary": "Ensure that all initiatives related to low carbon development respond to country and community priority needs and opportunities in an equitable manner, including being gender responsive." },
+          { "action": "(e)", "summary": "Assist civil society, community and other non-governmental organisations to participate meaningfully in regional and international advocacy for low carbon development." },
+          { "action": "(f)", "summary": "Support and build capacity in research, development and training in specific skill requirements of low carbon energy technologies and practices in the region." },
+          { "action": "(g)", "summary": "Support PICTs to identify and utilise opportunities for the transport and industry sectors to reduce their greenhouse gas emissions, including assessing how PICTs might move to more energy-efficient modes of transport and the associated costs and benefits." },
+          { "action": "(h)", "summary": "Strengthen regional coordination and cooperation that supports national efforts to reduce energy demand through initiatives such as appliance standards and labelling." },
+          { "action": "(i)", "summary": "Support development of REDD+ and ocean initiatives, including sustainable forest and coast management and conservation to ensure long-term benefits to the environment and for natural resource-dependent communities." },
+          { "action": "(j)", "summary": "Assist relevant PICTs to establish, implement and maintain monitoring systems that use an appropriate combination of remote sensing and ground-based carbon inventory approaches, in support of strengthening sustainable forest management efforts at national and subnational levels." },
+          { "action": "(k)", "summary": "Work with PICTs to assess and implement ways to enhance and maintain natural carbon reservoirs in both marine and terrestrial ecosystems." }
+        ]
+      }
+    },
+    {
+      "goal": 3,
+      "title": "Strengthened Disaster Preparedness, Response and Recovery",
+      "context_and_challenges": {
+        "summary": "Coordinated and collaborative humanitarian action is vital to avoid duplication and enhance collective efforts to support PICTs in disaster preparedness, response and recovery. An enabling environment with political will is needed to build capacity of all relevant government agencies, development partners and humanitarian actors to respond to slow and sudden onset hazards in a coordinated and integrated manner. Support is needed for line ministries to lead sector-level actions, for national disaster management offices to coordinate overall response, and for interoperability of key response agencies. Local-level first responders and partners must adopt more coordinated approaches. A common framework for preparedness will enhance response capacities by maximising use of resources and expertise through the UNOCHA-led Pacific Humanitarian Team and other partners. Knowledge brokering, communication and access to meteorological, climate and geological information are essential across the humanitarian-development continuum."
+      },
+      "strategic_objective": {
+        "summary": "Improved capacity of PICTs to prepare for emergencies and disasters, thereby ensuring timely and effective response and recovery, and to ensure future risk is reduced, in relation to both rapid and slow onset disasters."
+      },
+      "outcome": {
+        "summary": "Disaster preparedness, response and recovery initiatives prevent undue human losses and suffering, and minimise adverse consequences for national, provincial, local and community economic, social and environmental systems."
+      },
+      "priority_actions": {
+        "national_and_subnational_governments": [
+          { "action": "(a)", "summary": "Review and strengthen disaster risk management planning arrangements and legislation, ensuring clearly defined roles and responsibilities and an inclusive approach involving all stakeholders including international and multi-stakeholder support to response and recovery." },
+          { "action": "(b)", "summary": "Conduct post-disaster needs assessments, using standardised methodologies updated to the extent possible and baseline data to inform recovery planning." },
+          { "action": "(c)", "summary": "Ensure the acquisition, use and sharing of accurate data and other information, including sex-and-age disaggregated data and data for vulnerable groups, to assess risk and facilitate more focused preparedness, response and recovery activities, as well as for loss and damage assessment." },
+          { "action": "(d)", "summary": "Strengthen capacities at the national government, local government and community level to develop integrated preparedness and response plans through inclusive gender-responsive decision-making systems, human rights-based approaches, and sound financial management to plan for and ensure fast and effective humanitarian action, disaster response and recovery." },
+          { "action": "(e)", "summary": "Include the private sector, especially the logistics, telecommunications and tourism sectors, in national planning for all phases of disaster risk management." },
+          { "action": "(f)", "summary": "Support existing and additional capacity-building and awareness raising for governments and communities (including churches and schools), to improve their disaster preparedness, response and recovery capabilities, acknowledging they are often the first responders in the event of a disaster." },
+          { "action": "(g)", "summary": "Improve country-level humanitarian coordination mechanisms by adequately resourcing the national disaster management office and emergency operations centres and ensuring appropriate coordination with all relevant partners and regional disaster management mechanisms." },
+          { "action": "(h)", "summary": "Strengthen effective multi-hazard early warning systems including for sudden and slow onset hazards and the use of science and technology to inform risk management and hazard/disaster preparedness and policy development." },
+          { "action": "(i)", "summary": "Ensure early warning language and messages are accessible to managers and decision makers, civil society and communities, ensuring that messaging and the availability of humanitarian services reaches vulnerable groups." },
+          { "action": "(j)", "summary": "Ensure communication infrastructure and two-way communication channels are available to affected people in disasters through channels that are used within the country and communities." },
+          { "action": "(k)", "summary": "Anticipate and prepare for future displacement by integrating human mobility issues within disaster preparedness, response and recovery programmes and actions." },
+          { "action": "(l)", "summary": "Support increasing the protection of individuals and communities most vulnerable to climate change and post-disaster displacement and migration through targeted national and regional policies and regional labour migration schemes." },
+          { "action": "(m)", "summary": "Ensure that finance and planning institutions play a central role in strategic, whole-of-country approaches for preparedness, response, and recovery, and that all opportunities for climate change and risk financing including insurance are pursued, with support from regional agencies." },
+          { "action": "(n)", "summary": "Provide an enabling environment for effective partnership with the private sector, civil society and other stakeholders for improved preparedness, response and recovery; develop public-private partnership agreements with businesses and members of the private sector so that systems are ready for times of emergency." },
+          { "action": "(o)", "summary": "Collect post-disaster time series information that separates elements of the cause (hazard, vulnerability and exposure) and the effect (impact or consequence) to inform estimates of future impacts (risk assessments) and to monitor progress toward risk reduction targets." },
+          { "action": "(p)", "summary": "Maintain and update knowledge management systems, and ensure that lessons learned during and in the aftermath of emergencies and disasters are included." },
+          { "action": "(q)", "summary": "Strengthen the inter-operability of systems used by key national response agencies to plan for improved coordination of response efforts and the optimisation of available resources." },
+          { "action": "(r)", "summary": "Establish a contingency stockpile of emergency relief items." }
+        ],
+        "civil_society_and_communities": [
+          { "action": "(a)", "summary": "Work with partners to strengthen capacity to effectively serve as first responders in emergencies and disasters." },
+          { "action": "(b)", "summary": "Strengthen capacity in all aspects of disaster management, including gender-sensitive disaster preparedness and response arrangements and plans for communities, while addressing the specific needs of vulnerable groups aligned with plans, mechanisms and arrangements of national governments." },
+          { "action": "(c)", "summary": "Encourage a spiritually, theologically and culturally inclusive approach that underpins personal involvement in strengthening disaster preparedness, response and recovery." },
+          { "action": "(d)", "summary": "Encourage protection of human rights in the context of climate change and disasters and to use appropriate methods that ensure inclusive participation of vulnerable groups to address their specific needs." }
+        ],
+        "private_sector": [
+          { "action": "(a)", "summary": "Work with other partners to strengthen disaster management capacity, including leading and participating in joint disaster scenario planning, response, and recovery." },
+          { "action": "(b)", "summary": "Support community preparedness and emergency response, such as using mobile and radio technologies as tools/platforms for raising awareness and education, and for early warning and alerts, to ensure messaging and the availability of humanitarian services reaches communities including vulnerable groups." },
+          { "action": "(c)", "summary": "Build and strengthen private-public sector partnerships to facilitate agreements in place prior to an emergency, and to stimulate knowledge sharing and innovative solutions for improving disaster preparedness, response and recovery." },
+          { "action": "(d)", "summary": "Develop and implement business continuity plans according to best practice, and incorporate risk financing options such as liability and insurance regimes into these plans including for small-scale businesses and producers." },
+          { "action": "(e)", "summary": "Strengthen investments in post-disaster recovery using low carbon development, climate change resilience solutions, build back better and build back safer approaches to reduce future disaster risks and impacts from climate change." },
+          { "action": "(f)", "summary": "Facilitate sector needs and capacity mapping including an inventory of private sector resources and services that can be made available before and after a disaster event in ways that assist response and recovery efforts." }
+        ],
+        "regional_organizations_and_development_partners": [
+          { "action": "(a)", "summary": "Support the strengthening of capacities (including humanitarian coordination mechanisms) and planning arrangements at regional, national and subnational level (including through community-based approaches) to better prepare for, respond to and recover from disasters." },
+          { "action": "(b)", "summary": "Strengthen end-to-end early warning systems through effective processes and interoperability." },
+          { "action": "(c)", "summary": "Ensure optimum use of resources and capacities for emergency/disaster response by supporting PICTs in their efforts to strengthen interoperability of key response agencies and systems." },
+          { "action": "(d)", "summary": "Provide technical advice and support to develop disaster management strategies and plans that are gender-responsive and include human rights-based approaches." },
+          { "action": "(e)", "summary": "Assist in strengthening the telecommunications, observational data and data processing infrastructure that supports provision of reliable early warnings and hazard/risk information." },
+          { "action": "(f)", "summary": "Encourage the public finance management and disaster risk management communities to work together to improve technical assistance training." },
+          { "action": "(g)", "summary": "Support the ongoing development of national and regional financing modalities that will promote improved access to relevant funding mechanisms for disaster response and climate change." },
+          { "action": "(h)", "summary": "Work with other development partners, governments and administrations to support building resilience of the private sector and their contributions to disaster risk management including: facilitating capacity mapping and private sector resource inventory, aligning supply chain practices for cost efficiencies, and timely delivery of emergency supplies and services." },
+          { "action": "(i)", "summary": "Develop guidelines, including best practice models, for effective disaster risk management at national and subnational level." },
+          { "action": "(j)", "summary": "Support the protection of individuals and communities most vulnerable to climate change and post-disaster displacement and migration through targeted national and regional policies and regional labour migration schemes, where appropriate." }
+        ]
+      }
+    }
+  ]
+}
