@@ -1,0 +1,2 @@
+import {t as tD,bH as tl,b as bw,bI as nl}from'./main-OFMHXIDF.js';var r=class i{static \u0275fac=function(t){return new(t||i)};static \u0275cmp=tD({type:i,selectors:[["app-report"]],decls:5,vars:0,consts:[["href","mailto:info@agenticpacific.com.fj"]],template:function(t,p){t&1&&(tl(0,"p"),bw(1,`Reports Module Not Available in Public Demo.
+Contact: `),tl(2,"a",0),bw(3,"info@agenticpacific.com.fj"),nl(),bw(4," for details."),nl());},encapsulation:2})};export{r as Report};
