@@ -142,60 +142,72 @@
 
 <br />
 
-<nz-card nzTitle="Activity Data Entry Form (New Sub-Activity L2)">
-	<form nz-form [formGroup]="subActivityForm" (ngSubmit)="saveSubActivity()" class="entry-form">
-		<div class="form-grid">
-			<div class="form-field">
-				<span class="form-label">Parent Action Item</span>
-				<nz-select formControlName="actionItemNo" [nzOptions]="parentActivityOptions()"></nz-select>
+<div class="action-bar">
+	<button nz-button nzType="primary" (click)="openCreateActivityModal()">Create New Activity</button> | 
+	<button nz-button nzType="dashed" disabled="true">Update Activity</button>
+</div>
+<br />
+
+<nz-modal nzTitle="Activity Data Entry Form (New Sub-Activity L2)" [nzVisible]="createActivityModalVisible()"
+	[nzWidth]="900" (nzOnCancel)="closeCreateActivityModal()" [nzFooter]="">
+	<ng-container *nzModalContent>
+		<form nz-form [formGroup]="subActivityForm" (ngSubmit)="saveSubActivity()" class="entry-form">
+			<div class="form-grid">
+				<div class="form-field">
+					<span class="form-label">Parent Action Item</span>
+					<nz-select formControlName="actionItemNo" [nzOptions]="parentActivityOptions()"></nz-select>
+				</div>
+
+				<div class="form-field full-width">
+					<span class="form-label">Sub-Activity Title</span>
+					<input nz-input formControlName="title" />
+				</div>
+
+				<div class="form-field full-width">
+					<span class="form-label">Sub-Activity Description</span>
+					<textarea nz-input formControlName="description" rows="3"></textarea>
+				</div>
+
+				<div class="form-field">
+					<span class="form-label">Owner</span>
+					<input nz-input formControlName="owner" />
+				</div>
+
+				<div class="form-field">
+					<span class="form-label">Due Date</span>
+					<input nz-input type="date" formControlName="dueDate" />
+				</div>
+
+				<div class="form-field">
+					<span class="form-label">Weight (%)</span>
+					<nz-input-number formControlName="weight"></nz-input-number>
+				</div>
+
+				<div class="form-field">
+					<span class="form-label">Progress (%)</span>
+					<nz-input-number formControlName="progress"></nz-input-number>
+				</div>
+
+				<div class="form-field">
+					<span class="form-label">Status</span>
+					<nz-select formControlName="status" [nzOptions]="statusOptions"></nz-select>
+				</div>
+
+				<div class="form-field">
+					<span class="form-label">Secondary Contribution Rows (Multiple)</span>
+					<nz-select formControlName="secondaryRows" nzMode="multiple" [nzOptions]="rowOptions"></nz-select>
+				</div>
+
+				<div class="form-field full-width">
+					<span class="form-label">Evidence URL</span>
+					<input nz-input formControlName="evidenceUrl" />
+				</div>
 			</div>
 
-			<div class="form-field full-width">
-				<span class="form-label">Sub-Activity Title</span>
-				<input nz-input formControlName="title" />
+			<div class="modal-actions">
+				<button nz-button nzType="default" type="button" (click)="closeCreateActivityModal()">Cancel</button>
+				<button nz-button nzType="primary" type="submit">Save Sub-Activity</button>
 			</div>
-
-			<div class="form-field full-width">
-				<span class="form-label">Sub-Activity Description</span>
-				<textarea nz-input formControlName="description" rows="3"></textarea>
-			</div>
-
-			<div class="form-field">
-				<span class="form-label">Owner</span>
-				<input nz-input formControlName="owner" />
-			</div>
-
-			<div class="form-field">
-				<span class="form-label">Due Date</span>
-				<input nz-input type="date" formControlName="dueDate" />
-			</div>
-
-			<div class="form-field">
-				<span class="form-label">Weight (%)</span>
-				<nz-input-number formControlName="weight"></nz-input-number>
-			</div>
-
-			<div class="form-field">
-				<span class="form-label">Progress (%)</span>
-				<nz-input-number formControlName="progress"></nz-input-number>
-			</div>
-
-			<div class="form-field">
-				<span class="form-label">Status</span>
-				<nz-select formControlName="status" [nzOptions]="statusOptions"></nz-select>
-			</div>
-
-			<div class="form-field">
-				<span class="form-label">Secondary Contribution Rows</span>
-				<nz-select formControlName="secondaryRows" nzMode="multiple" [nzOptions]="rowOptions"></nz-select>
-			</div>
-
-			<div class="form-field full-width">
-				<span class="form-label">Evidence URL</span>
-				<input nz-input formControlName="evidenceUrl" />
-			</div>
-		</div>
-
-		<button nz-button nzType="primary" type="submit">Save Sub-Activity</button>
-	</form>
-</nz-card>
+		</form>
+	</ng-container>
+</nz-modal>

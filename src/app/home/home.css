@@ -8,9 +8,10 @@
 	border-radius: 12px;
 	display: grid;
 	gap: 20px;
-	grid-template-columns: 55% 45%;
+	grid-template-columns: minmax(0, 1fr) auto;
 	padding: 20px;
 	position: relative;
+	width: 100%;
 }
 
 .app-header-main {
@@ -51,7 +52,8 @@
 	background: #ffffff;
 	border: 1px solid #dbe6f0;
 	border-radius: 10px;
-	display: grid;
+	/* display: grid; */
+	/* width: 180px; */
 	gap: 2px;
 	padding: 8px 10px;
 }
@@ -82,19 +84,35 @@
 	font-weight: 600;
 }
 
+
+
 .app-header-logos {
-	align-content: center;
+	align-content: start;
 	display: grid;
 	gap: 12px;
-	justify-items: center;
-	
+	grid-template-columns: 2fr 1fr;
+	justify-items: end;
 }
 
 .app-header-logos img {
-	background: #fff;
+	/* background: #fff; */
 	border: none;
-	height: 110px;
+	height: 120px;
 	padding: 2px;
+}
+
+.logo-ndmo {
+	grid-column: 1 / -1;
+	justify-self: end;
+	height: auto;
+	
+	object-fit: contain;
+}
+
+.app-header-logos img:not(.logo-ndmo) {
+	height: auto;
+	
+	object-fit: contain;
 }
 
 .alignment-entry {
@@ -120,6 +138,7 @@
 
 	.app-header-logos {
 		grid-template-columns: repeat(2, minmax(120px, 1fr));
+		justify-items: start;
 	}
 }
 

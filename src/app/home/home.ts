@@ -1,4 +1,4 @@
-import { NgOptimizedImage, UpperCasePipe } from '@angular/common';
+import { UpperCasePipe } from '@angular/common';
 import { Component, computed } from '@angular/core';
 import { DataService } from '../data-service';
 import { inject, signal } from '@angular/core';
@@ -21,7 +21,6 @@ import type { Alignment, FrameworksAlignment } from '../models/frameworks-alignm
     NzCollapseModule,
     UpperCasePipe,
     RouterLink,
-    NgOptimizedImage,
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',

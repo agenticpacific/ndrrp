@@ -8,6 +8,7 @@ import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
 import { NzMessageService } from 'ng-zorro-antd/message';
+import { NzModalModule } from 'ng-zorro-antd/modal';
 import { NzProgressModule } from 'ng-zorro-antd/progress';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzTableModule } from 'ng-zorro-antd/table';
@@ -69,6 +70,7 @@ interface NdrppActionOption {
     NzFormModule,
     NzInputModule,
     NzInputNumberModule,
+    NzModalModule,
     NzProgressModule,
     NzSelectModule,
     NzTableModule,
@@ -183,10 +185,12 @@ export class Activity {
 
   protected readonly selectedActivityId = signal<number>(1);
   protected readonly ndrrpActionItems = signal<NdrppActionOption[]>([]);
+  protected readonly createActivityModalVisible = signal(false);
 
   protected readonly subActivityForm = this.fb.nonNullable.group({
     actionItemNo: this.fb.nonNullable.control(65, Validators.required),
     title: this.fb.nonNullable.control('', [Validators.required, Validators.minLength(5)]),
+    description: this.fb.nonNullable.control(''),
     owner: this.fb.nonNullable.control('', Validators.required),
     dueDate: this.fb.nonNullable.control('', Validators.required),
     weight: this.fb.nonNullable.control(10, [Validators.required, Validators.min(1), Validators.max(100)]),
@@ -303,6 +307,14 @@ export class Activity {
     this.selectedActivityId.set(id);
   }
 
+  protected openCreateActivityModal(): void {
+    this.createActivityModalVisible.set(true);
+  }
+
+  protected closeCreateActivityModal(): void {
+    this.createActivityModalVisible.set(false);
+  }
+
   private loadNdrppActionItems(): void {
     this.http.get<NdrppActionItemsPayload>('data/NDRRP.json').subscribe((payload) => {
       const entries =
@@ -330,5 +342,6 @@ export class Activity {
 
   protected saveSubActivity(): void {
     this.message.info('Saving is disabled in demo version.');
+    this.closeCreateActivityModal();
   }
 }

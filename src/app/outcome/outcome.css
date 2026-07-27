@@ -37,6 +37,10 @@
 	margin-bottom: 4px;
 }
 
+.action-bar {
+	margin-bottom: 8px;
+}
+
 .entry-form {
 	display: grid;
 	gap: 14px;
@@ -60,6 +64,12 @@
 
 .form-label {
 	font-size: 12px;
+}
+
+.modal-actions {
+	display: flex;
+	gap: 8px;
+	justify-content: flex-end;
 }
 
 @media (max-width: 768px) {

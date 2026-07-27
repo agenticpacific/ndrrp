@@ -7,6 +7,7 @@ import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
 import { NzMessageService } from 'ng-zorro-antd/message';
+import { NzModalModule } from 'ng-zorro-antd/modal';
 import { NzProgressModule } from 'ng-zorro-antd/progress';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzTableModule } from 'ng-zorro-antd/table';
@@ -50,6 +51,7 @@ interface OutcomeIndicator {
     NzFormModule,
     NzInputModule,
     NzInputNumberModule,
+    NzModalModule,
     NzProgressModule,
     NzSelectModule,
     NzTableModule,
@@ -166,10 +168,12 @@ export class Outcome {
   ]);
 
   protected readonly selectedIndicatorId = signal<number>(1);
+  protected readonly createOutcomeModalVisible = signal(false);
 
   protected readonly indicatorForm = this.fb.nonNullable.group({
     rowId: this.fb.nonNullable.control<1 | 2 | 3 | 4 | 5>(1, Validators.required),
     title: this.fb.nonNullable.control('', [Validators.required, Validators.minLength(5)]),
+    description: this.fb.nonNullable.control(''),
     indicatorType: this.fb.nonNullable.control<IndicatorType>('Numeric', Validators.required),
     leadAgency: this.fb.nonNullable.control('', Validators.required),
     unit: this.fb.nonNullable.control('', Validators.required),
@@ -245,7 +249,16 @@ export class Outcome {
     this.selectedIndicatorId.set(id);
   }
 
+  protected openCreateOutcomeModal(): void {
+    this.createOutcomeModalVisible.set(true);
+  }
+
+  protected closeCreateOutcomeModal(): void {
+    this.createOutcomeModalVisible.set(false);
+  }
+
   protected saveIndicator(): void {
     this.message.info('Saving is disabled in demo version.');
+    this.closeCreateOutcomeModal();
   }
 }

@@ -3,31 +3,31 @@
         <div class="app-header-main">
             <p class="header-kicker">National DRR Monitoring and Evaluation Platform</p>
             <h2 class="header-title">
-                Fiji National Disaster Risk Reduction and Management Plan
+                Fiji National Disaster Risk Reduction and Management Plan | 2018-2030
                 <br/>
-                Monitoring and Evaluation Platform | 2018-2030 <i>[Demo]</i>
+                Monitoring and Evaluation Platform  <i>[Demo]</i>
             </h2>
 
             <p class="header-subtitle">National Actions and Activities Aligned to Regional and Global DRR Frameworks</p>
 
             <div class="header-stats" aria-label="Base Data Overview">
                 <div class="stat-chip">
-                    <span class="stat-value">4</span>
+                    <span class="stat-value">4 </span>
                     <span class="stat-label">Frameworks and Policies</span>
                 </div>
                 <div class="stat-chip">
-                    <span class="stat-value">10</span>
+                    <span class="stat-value">10 </span>
                     <span class="stat-label">Alignment Themes</span>
                 </div>
                 <div class="stat-chip">
-                    <span class="stat-value">7</span>
+                    <span class="stat-value">7 </span>
                     <span class="stat-label">Sendai Targets Alignment</span>
                 </div>
             </div>
 
             <p class="header-overview">
                 <u>Base Data Overview</u>: <b>4</b> Frameworks and Policies, with Flexible Alignment and Cross-Framework Mapping and Pathway
-                across <b>10</b> themes, and <b>7</b> Sendai Targets Alignment.
+                across <b>10</b> themes, and <b>7</b> Sendai Targets Alignment. Application-level multi-dimensional framework mapping to outcome and activity data, with colour-coded framework rows, indicator performance, and evidence-linked reporting.
             
                 Prepopulated with <a routerLink="/outcome">Outcomes</a> and <a routerLink="/activity">Activities</a> for
                 Demonstration Purposes Only. Data is Editable by Admin Users. Data and Reports are exportable to Excel and
@@ -36,17 +36,22 @@
         </div>
 
         <div class="app-header-logos" aria-label="Institutional logos">
-            <img src="ndmo.png" alt="NDRMO logo" />
-            <img src="fiji.png" alt="Fiji emblem" />
-            
+            <img src="ndmo.png" alt="NDRMO logo" class="logo-ndmo" />
+            <img src="fiji.png" style="height: 110px; margin-top: 8px;" alt="Fiji emblem" />
+            <img src="logo-light.png" style="height: 110px;" alt="NDRRP platform logo" />
+
         </div>
+
+
+
     </div>
+
 </nz-card>
 
 <br />
 
 <nz-collapse>
-    <nz-collapse-panel nzHeader="Frameworks and Policies" [nzActive]="true">
+    <nz-collapse-panel nzHeader="Frameworks and Policies">
         <nz-table #frameworksTable nzBordered [nzShowPagination]="false" [nzData]="frameworks()">
             <thead>
                 <tr>
